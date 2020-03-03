@@ -1,0 +1,76 @@
+/*-------------------------------------------------------------------------------General/Padding/Margin---*/
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+nav {
+    padding: 0px;
+    min-height: 50px;
+    }
+
+/*-------------------------------------------------------------------------------Colours-----------------*/
+
+/*------------------------------------------------------------------------------------------------Nav----*/
+.navbar {
+    background-color: #fefefe;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: #178e8e;
+    height: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.navbar-toggler {
+    max-height: 40px;
+    padding-top: 5px;
+    border: none;
+}
+.navbar-toggler-icon {
+     color: #178e8e;
+     font-size:28px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+.nav-item {
+    background-color: transparent;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #065858;
+}
+
+.nav-item:hover .nav-link {
+    color: #579b9b;
+}
+
+
+.nav-btn-contact {
+    border-radius: 0px;
+    background-color: #065858;
+    border-color: #065858;
+    color: #fefefe;
+    height: 40px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.nav-btn-contact:hover {
+    background-color: #fefefe;
+    color: #065858;
+}
+
+/*------------------------------------------------------------------------------------------------Hero---*/
+
+.hero-container {
+    height: 100vh; 
+    background-color: royalblue;
+}
