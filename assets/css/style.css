@@ -20,6 +20,10 @@ nav {
 
 /*-------------------------------------------------------------------------------Colours-----------------*/
 
+.bg-color-about-container {
+    background-color: #fefefe;
+}
+
 /*------------------------------------------------------------------------------------------------Nav----*/
 .navbar {
     background-color: #fefefe;
@@ -27,36 +31,23 @@ nav {
 }
 
 .navbar-brand {
-    color: #377979;
+    color: #098888;
     height: 40px;
     font-weight: 400;
     letter-spacing: 1px;
     padding-left: 10px;
+    font-weight: 400;
 }
 
 .navbar-brand:hover {
-    color: #065858;
+    color: #098888;
 }
-
-.navbar-toggler {
-    max-height: 40px;
-    padding-top: 5px;
-    border: none;
-}
-.navbar-toggler-icon {
-     color: #508a8a;
-     font-size:28px;
-}
-
-.navbar-toggler:focus, .navbar-toggler:active {
-    outline: none;
-    box-shadow: none;
-  }
 
 .nav-item {
     background-color: transparent;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
+    padding-left: 2px;
 }
 
 .nav-link {
@@ -64,8 +55,20 @@ nav {
 }
 
 .nav-item:hover .nav-link {
-    color: #508a8a;
+    color: #098888;
 }
+
+.dropdown-menu {
+    border: none;
+    background-color: #e6eeee;
+    border-radius: 0px;
+    margin: 4px;
+}
+
+.dropdown-item {
+    color: #044646;
+    outline: none;
+} 
 
 
 .nav-btn-contact {
@@ -83,6 +86,20 @@ nav {
     color: #065858;
     border-color: #065858;
 }
+.navbar-toggler {
+    max-height: 40px;
+    padding-top: 5px;
+    border: none;
+}
+.navbar-toggler-icon {
+     color: #508a8a;
+     font-size:28px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
 
 /*------------------------------------------------------------------------------------------------Hero---*/
 
@@ -120,4 +137,12 @@ nav {
     color: #fefefe;
     background-color: #065858;
     border-color: #fefefe;
+}
+
+/*------------------------------------------------------------------------------------------------About--*/
+.about-text-container {
+    background-color:#065858;
+    margin: 20px;
+    color: #fefefe;
+    padding: 10px;
 }
