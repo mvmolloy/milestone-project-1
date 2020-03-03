@@ -9,6 +9,15 @@ nav {
     min-height: 50px;
     }
 
+.container-fluid {
+    padding: 0;
+}
+
+.hero-container {
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+}
+
 /*-------------------------------------------------------------------------------Colours-----------------*/
 
 /*------------------------------------------------------------------------------------------------Nav----*/
@@ -18,10 +27,15 @@ nav {
 }
 
 .navbar-brand {
-    color: #178e8e;
+    color: #377979;
     height: 40px;
     font-weight: 400;
     letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.navbar-brand:hover {
+    color: #065858;
 }
 
 .navbar-toggler {
@@ -30,7 +44,7 @@ nav {
     border: none;
 }
 .navbar-toggler-icon {
-     color: #178e8e;
+     color: #508a8a;
      font-size:28px;
 }
 
@@ -42,14 +56,15 @@ nav {
 .nav-item {
     background-color: transparent;
     letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .nav-link {
-    color: #065858;
+    color: #054f4f;
 }
 
 .nav-item:hover .nav-link {
-    color: #579b9b;
+    color: #508a8a;
 }
 
 
@@ -66,11 +81,43 @@ nav {
 .nav-btn-contact:hover {
     background-color: #fefefe;
     color: #065858;
+    border-color: #065858;
 }
 
 /*------------------------------------------------------------------------------------------------Hero---*/
 
 .hero-container {
-    height: 100vh; 
-    background-color: royalblue;
+    background-image: url("../images/hero.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;   
+    position: relative;
+}
+
+.hero-text-overlay {
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    background-color: rgba(6, 88, 88, 0.9);
+    margin-top: 10px;
+    margin-right: 10px;
+    }
+
+.nav-btn-about {
+    border-radius: 0px;
+    color: #065858;
+    border-color: #065858;
+    background-color: #fefefe;
+    height: 40px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.nav-btn-about:hover {
+    color: #fefefe;
+    background-color: #065858;
+    border-color: #fefefe;
 }
