@@ -13,6 +13,8 @@ Users will be potential clients and employers. For such users, it needs to be ea
 
 **This project gives them what they need because**...
 
+#### Mockup 
+
 #### Wireframes
 
 ## FEATURES
@@ -27,27 +29,29 @@ Users will be potential clients and employers. For such users, it needs to be ea
 
 #### Existing Features 
 - Nav
+  - **[scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/)** aids the navigation through the side
 - Hero
 - About
-- CV - Including a link to download printable PDF of traditional CV 
-- Portfolio - showcasing Code Institute projects to date, including Love Running, Whiskey Drop and Rosie Odenkirk's Portfolio. 
+- CV - My CV split into two "timelines": one is a traditional timeline of my employment and education history since starting university in 2013. The other displaying my front-end and back-end technical skills. Also includes a button to download printable PDF of traditional CV, which opens in a new tab. 
+- Portfolio - showcasing Code Institute projects to date, including Love Running, Whiskey Drop and Rosie Odenkirk's Portfolio. Highlights 4 existing projects and prompts the user to consider if their project might be next. Gives a call-to-action to the contact form. 
 - Contact: Including contact form
 - Footer: Links to social sites, including Twitter, Git, Facebook, Linked in and another link to download my CV as a PDF. 
 
 #### Future Features 
 - Make the contact form work 
 - Add more projects using all the technical skills listed
+- Add real projects for real clients
 
 ## CREDITS 
 
 #### Content
+- All text content was written by myself. 
 
 #### Media
 - All backgrounds were made using: http://bg.siteorigin.com
-- The Hero Image was taken on my graduation day by Professor Adrian Pabst. 
+- The Hero Image was taken on my graduation day by Professor Adrian Pabst. A grey scale ("icarus") filter was added to this photo.
 - The project mockups were made using: https://smartmockups.com. All the projects for these are Code Institute Projects. 
 - The hex colours came from here: https://www.color-hex.com/color/065858
-
 
 #### HTML & CSS
 
