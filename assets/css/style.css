@@ -47,7 +47,7 @@ nav {
 }
 
 .navbar-brand:hover {
-    color: #098888;
+    color: #85cfcf;
 }
 
 .nav-item {
@@ -62,7 +62,7 @@ nav {
 }
 
 .nav-item:hover .nav-link {
-    color: #098888;
+    color: #85cfcf;
 }
 
 .dropdown-menu {
@@ -173,9 +173,6 @@ nav {
 .cv-container {
     height: 400px;
     color: white;
-}
-
-.cv-container {
     padding: 10px 25px;
 }
 .cv-history-container {
@@ -292,7 +289,7 @@ nav {
 
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-form {
-    margin-right: 10px;
+    margin: 10px;
 }
 .text-area {
     border-color: #065858;
