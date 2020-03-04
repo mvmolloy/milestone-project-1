@@ -38,9 +38,9 @@ Users will be potential clients and employers. For such users, it needs to be ea
 - Footer: Links to social sites, including Twitter, Git, Facebook, Linked in and another link to download my CV as a PDF. 
 
 #### Future Features 
-- Make the contact form work 
-- Add more projects using all the technical skills listed
-- Add real projects for real clients
+[] Make the contact form work 
+[] Add more projects using all the technical skills listed
+[] Add real projects for real clients
 
 ## Testing
 #### Devices
