@@ -1,4 +1,4 @@
-Welcome!
+## Welcome!
 
 This wesbite is designed to act as an online portfolio that can be used during and after my time learning and creating with the Code Institute. Right now it's primary purpose is to submit as my User Centric Front-End Development project (Milestone 1) but eventually it will serve as a landing page for potential employers and clients. 
 
