@@ -163,7 +163,7 @@ nav {
     height: 400px;
     background-color:grey;
 }
-/*---------------------------------------------------------------------------------------------Project---*/
+/*---------------------------------------------------------------------------------------------Projects---*/
 .portfolio-container {
     background: url("../images/portfoliobg.jpg");
     -webkit-background-size: cover;
@@ -244,4 +244,35 @@ nav {
 .portfolio-btn-contact:hover {
     background-color: #fefefe;
     color: #065858;
+}
+
+/*-------------------------------------------------------------------------------------Contact*/
+.text-area {
+    border-color: #065858;
+    margin-top: 5px;
+    border-radius: 0px;
+}
+
+.textarea:focus {
+    outline: none;
+}
+.input:focus {
+    background-color: red;
+}
+
+.btn-contact-send {
+    border-radius: 0px;
+    color: #065858;
+    border-color: #065858;
+    background-color: #fefefe;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-contact-send:hover {
+    color: #fefefe;
+    background-color: #065858;
+    font-weight: 400;
 }
