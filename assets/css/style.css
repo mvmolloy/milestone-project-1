@@ -37,6 +37,14 @@ nav {
     margin-right: 0px;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
 /*------------------------------------------------------------------------------------------------Nav----*/
 .navbar {
     background-color: #fefefe;
@@ -46,9 +54,9 @@ nav {
 .navbar-brand {
     color: #098888;
     height: 40px;
-    font-weight: 400;
     letter-spacing: 1px;
     padding-left: 10px;
+    padding-right: 10px;
     font-weight: 400;
     margin: 0px;
 }
@@ -244,16 +252,20 @@ nav {
 }
 /*---------------------------------------------------------------------------------------------Projects---*/
 
-
+.portfolio-container {
+    padding: 10px;
+}
 .portfolio-container-header {
     margin: 10px;
     padding: 5px;
-    background-color: rgba(254, 254, 254, 0.9);
+    color: white;
     border-radius: 2px;
+    text-align: center;
+    font-weight: 300;
 }
 
 .project-card {
-    margin: 10px;
+    margin: 15px;
     background-color: rgba(220, 235, 235, 0.85);
     box-shadow: rgba(0, 0, 255, .2);
 }
@@ -270,7 +282,6 @@ nav {
 .project-image {
     margin-bottom: 10px;
     width: 100%;
-    height: 15em;
 }
 
 
