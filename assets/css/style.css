@@ -31,12 +31,6 @@ nav {
     height: calc(100vh - 50px);
 }
 
-/*-------------------------------------------------------------------------------Colours-----------------*/
-
-.bg-color-about-container {
-    background-color: #fefefe;
-}
-
 /*------------------------------------------------------------------------------------------------Nav----*/
 .navbar {
     background-color: #fefefe;
@@ -178,6 +172,48 @@ nav {
 /*---------------------------------------------------------------------------------------------CV---*/
 .cv-container {
     height: 400px;
+    color: white;
+}
+
+.cv-container {
+    padding: 10px 25px;
+}
+.cv-history-container {
+    text-align: left;
+   
+}
+.cv-skills-container {
+    text-align: right;
+}
+
+.cv-btn-container {
+    text-align: center;
+}
+
+.btn-print-cv {
+    border-radius: 0px;
+    color: #065858;
+    border-color: #065858;
+    background-color: #fefefe;
+    opacity: 0.9;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    border-width: 2px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.btn-print-cv:hover {
+    color: #fefefe;
+    background-color: transparent;
+    border-color: #fefefe;
+    font-weight: 400;
+    border-width: 2px;
+    opacity: 0.8;
+}
+.cv-container-print-icon {
+    font-size: 30px;
 }
 /*---------------------------------------------------------------------------------------------Projects---*/
 
@@ -204,8 +240,6 @@ nav {
     text-align: center;
 }
 
-.project-tech-used {
-}
 .project-image {
     margin-top: 15px;
     margin-bottom: 10px;
