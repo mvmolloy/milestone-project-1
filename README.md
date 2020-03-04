@@ -1,5 +1,3 @@
-
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 Welcome!
 
 This wesbite is designed to act as an online portfolio that can be used during and after my time learning and creating with the Code Institute. Right now it's primary purpose is to submit as my User Centric Front-End Development project (Milestone 1) but eventually it will serve as a landing page for potential employers and clients. 
@@ -7,21 +5,38 @@ This wesbite is designed to act as an online portfolio that can be used during a
 ## UX
 
 #### Client
-My client is myself. 
+My client is myself. I want my website to showcase of my skills and existing projects to potential employers and clients. 
+**This project meets my goals because**...
 
 #### Users
+Users will be potential clients and employers. For such users, it needs to be easy to navigate to learn about me, to view my portfolio, to contact me. This needs to be true whatever device the user is viewing on. 
+
+**This project gives them what they need because**...
 
 #### Wireframes
 
 ## FEATURES
 
 #### Technologies
-
 - **HTML5** and **CSS3**
-- **Bootstrap v.4.4**
+- **[Bootstrap v4.4(https://www.bootstrapcdn.com/)**
+    - The project uses **Bootstrap** to structure the website, make it fully responsive for mobile, tablet, laptop, desktop and large screen devices.
+    - The project also uses BootstrapCDN to provide icons from **[FontAwesome](https://www.bootstrapcdn.com/fontawesome/)**
 - **Gitpod** used as the IDE to develop the code. Committed and pushed to **GitHub** for Deployment.
-- **Googlefonts**
-- **fontawesome**
+- **Googlefonts** used to provide all font styles used throughout the project
+
+#### Existing Features 
+- Nav
+- Hero
+- About
+- CV - Including a link to download printable PDF of traditional CV 
+- Portfolio - showcasing Code Institute projects to date, including Love Running, Whiskey Drop and Rosie Odenkirk's Portfolio. 
+- Contact: Including contact form
+- Footer: Links to social sites, including Twitter, Git, Facebook, Linked in and another link to download my CV as a PDF. 
+
+#### Future Features 
+- Make the contact form work 
+- Add more projects using all the technical skills listed
 
 ## CREDITS 
 
@@ -29,10 +44,10 @@ My client is myself.
 
 #### Media
 - All backgrounds were made using: http://bg.siteorigin.com
+- The Hero Image was taken on my graduation day by Professor Adrian Pabst. 
 - The project mockups were made using: https://smartmockups.com. All the projects for these are Code Institute Projects. 
 - The hex colours came from here: https://www.color-hex.com/color/065858
 
-<img src="https://www.color-hex.com/color/0ba0a0" style="margin: 0;">
 
 #### HTML & CSS
 
