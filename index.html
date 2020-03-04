@@ -59,8 +59,12 @@
 				<div class="col-7"></div>
 				<div class="col-5">
 					<div class="hero-text-overlay">
-						<h2><i class="fas fa-layer-group"></i> Full-Stack Web Developer</h2>
-						<a href="#about"><button class="btn btn-info nav-btn-about"><i class="fas fa-angle-double-down"></i> About</button></a>
+						<div>
+							<h2 class="hero-header"><i class="fas fa-layer-group"></i> Full-Stack Web Developer</h2>
+						</div>
+						<div><a
+								href="#about"><button class="btn btn-info hero-btn-about"><i class="fas fa-angle-double-down"></i> About</button></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -80,7 +84,7 @@
 								pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
 								deserunt mollit anim id est laborum.
 							</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
 								irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -92,9 +96,34 @@
 				</div>
 			</div>
 		</section>
-		<section id="cv" class="cv-container">
-        </section>
-        <section id="portfolio" class="portfolio-container bg-color-portfolio-container">
+		<section id="cv" class="cv-container bg-color-cv-container">
+			<div class="row no-gutters">
+				<div class="col-5 cv-timeline">
+					<div class="row no-gutters">
+						<div class="col-12">
+							<h1>Work and<br>Education</h1>
+						</div>
+					</div>
+				</div>
+				<div class="d-none d-sm-block col-2 cv-btn-container">
+					<div>
+						<a href="#" target="_blank">
+							<button class="btn btn-info btn-print-cv">
+                                <i class="fas fa-file-pdf cv-container-print-icon" aria-hidden="true"></i><br>
+                             Download CV</button>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-5 skills-container">
+					<div class="row no-gutters">
+						<div class="col-12">
+							<h1>Technical<br>Skills</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+	    </section>
+	<section id="portfolio" class="portfolio-container bg-color-portfolio-container">
 		<div class="row no-gutters">
 			<div class="col-12">
 				<h2 class="portfolio-container-header">Projects</h2>
@@ -104,9 +133,13 @@
 			<div class="col-12 col-sm-6 col-md-4 project-one" id="project-one">
 				<div class="project-card">
 					<div class="project-card-content">
-                    <img class="project-image" src="../assets/images/loverunning.png" alt="love running project">
+						<img class="project-image" src="../assets/images/loverunning.png" alt="love running project">
 						<h3>Love Running</h3>
-                        <p>Website for a Dublin Running Club</p>
+						<p>Website for a Dublin Running Club</p>
+						<ul class="list-inline project-tech-used">
+							<li class="list-inline-item">html</li>
+							<li class="list-inline-item">css</li>
+						</ul>
 						<div class="btn-project">
 							<a
 								href="#"><button class="btn btn-info nav-btn-gitproject"><i class="fab fa-github"  aria-hidden="true"></i></button></a>
@@ -121,28 +154,40 @@
 			<div class="col-12 col-sm-6 col-md-4 project-two" id="project-two">
 				<div class="project-card">
 					<div class="project-card-content">
-                        <div>
-                        <img class="project-image" src="../assets/images/whiskeydrop.png" alt="whiskey drop project">
-                        <h3>Whiskey Drop</h3>
-                        <div><p>Landing page for a whiskey subscription service</p></div>
-						<div class="btn-project">
-							<a
-								href="#c"><button class="btn btn-info nav-btn-gitproject"><i class="fab fa-github"  aria-hidden="true"></i></button></a>
+						<div>
+							<img class="project-image" src="../assets/images/whiskeydrop.png" alt="whiskey drop project">
+							<h3>Whiskey Drop</h3>
+							<div>
+								<p>Landing page for a whiskey subscription service</p>
+							</div>
+							<ul class="list-inline project-tech-used">
+								<li class="list-inline-item">html</li>
+								<li class="list-inline-item">css</li>
+								<li class="list-inline-item">boostrap</li>
+							</ul>
+							<div class="btn-project">
+								<a
+									href="#c"><button class="btn btn-info nav-btn-gitproject"><i class="fab fa-github"  aria-hidden="true"></i></button></a>
+							</div>
+							<div class="btn-project">
+								<a
+									href="#"><button class="btn btn-info nav-btn-gitproject"><i class="fas fa-external-link-alt" aria-hidden="true"></i></button></a>
+							</div>
 						</div>
-						<div class="btn-project">
-							<a
-								href="#"><button class="btn btn-info nav-btn-gitproject"><i class="fas fa-external-link-alt" aria-hidden="true"></i></button></a>
-						</div>
-                        </div>
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 project-three" id="project-three">
 				<div class="project-card">
 					<div class="project-card-content">
-                    <img class="project-image" src="../assets/images/rosie.png" alt="rosie odenkirk project">
+						<img class="project-image" src="../assets/images/rosie.png" alt="rosie odenkirk project">
 						<h3>Rosie's Portfolio</h3>
-                        <p>Bespoke website for Rosie Odenkirk</p>
+						<p>Portfolio website for Rosie Odenkirk</p>
+						<ul class="list-inline project-tech-used">
+							<li class="list-inline-item">html</li>
+							<li class="list-inline-item">css</li>
+							<li class="list-inline-item">boostrap</li>
+						</ul>
 						<div class="btn-project">
 							<a
 								href="#"><button class="btn btn-info nav-btn-gitproject"><i class="fab fa-github"  aria-hidden="true"></i></button></a>
@@ -158,8 +203,13 @@
 			<div class="col-12 col-sm-6 col-md-4 project-three" id="project-four">
 				<div class="project-card">
 					<div class="project-card-content">
-						<h3>Rosie's Portfolio</h3>
 						<p class="project-screen-view"><i class="fas fa-laptop-code"></i></p>
+						<h3>Project Four</h3>
+						<ul class="list-inline project-tech-used">
+							<li class="list-inline-item">html</li>
+							<li class="list-inline-item">css</li>
+							<li class="list-inline-item">boostrap</li>
+						</ul>
 						<div class="btn-project">
 							<a
 								href="#"><button class="btn btn-info nav-btn-gitproject"><i class="fab fa-github"  aria-hidden="true"></i></button></a>
@@ -175,8 +225,9 @@
 				<div class="project-card">
 					<div class="project-card-content">
 						<h3>Your project could be next!</h3>
-						<p>Together we can take your project from start to finish. Use the contact form below to get in touch.</p>
-			            <a href="#contact"><button class="btn btn-info portfolio-btn-contact">Contact</button></a>
+						<p>Together we can take your project from start to finish. Use the contact form below to get in
+							touch.</p>
+						<a href="#contact"><button class="btn btn-info portfolio-btn-contact">Contact</button></a>
 						<p></p>
 					</div>
 				</div>
@@ -189,8 +240,8 @@
 		<div class="row no-gutters">
 			<div class="d-none d-sm-block col-sm-6">
 			</div>
-			<div class="col-12 col-md-6" style="">
-				<div class="feature">
+			<div class="col-12 col-md-6">
+				<div class="contact-form">
 					<h3>CONTACT</h3>
 					<form>
 						<input type="text" name="name" id="fullname" class="form-control text-area" placeholder="Name" required />
@@ -203,7 +254,7 @@
 			</div>
 		</div>
 	</section>
-    	<footer class="footer-container bg-color-footer-container">
+	<footer class="footer-container bg-color-footer-container">
 		<div class="row no-gutters">
 			<div class="col-12">
 				<ul class="list-inline footer-social-links">

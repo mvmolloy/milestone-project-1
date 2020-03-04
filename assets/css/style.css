@@ -3,6 +3,14 @@
     background-color: lightgray;
 
 }
+
+.bg-color-cv-container {
+    background-color: grey;
+}
+
+.bg-color-portfolio-container {
+ background-color: #065858;
+}
 /*-------------------------------------------------------------------------------General/Padding/Margin---*/
 body {
     font-family: 'Rubik', sans-serif;
@@ -128,7 +136,11 @@ nav {
     margin-right: 10px;
     }
 
-.nav-btn-about {
+.hero-header {
+    margin-right: 10px;
+}
+
+.hero-btn-about {
     border-radius: 0px;
     color: #065858;
     border-color: #065858;
@@ -138,7 +150,7 @@ nav {
     margin-right: 10px;
 }
 
-.nav-btn-about:hover {
+.hero-btn-about:hover {
     color: #fefefe;
     background-color: #065858;
     border-color: #fefefe;
@@ -166,31 +178,22 @@ nav {
 /*---------------------------------------------------------------------------------------------CV---*/
 .cv-container {
     height: 400px;
-    background-color:grey;
 }
 /*---------------------------------------------------------------------------------------------Projects---*/
-.portfolio-container {
-    background: url("../images/portfoliobg.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: initial;
-    background-repeat: repeat;
-    background-position: left;   
-    position: relative;
-}
+
 
 .portfolio-container-header {
     margin: 10px;
     padding: 5px;
     background-color: rgba(254, 254, 254, 0.9);
+    border-radius: 2px;
 }
 
 .project-card {
     margin: 10px;
     background-color: rgba(254, 254, 254, 0.85);
-    padding: 0px;
-    border-radius: 3px;
+    padding: 1px;
+    border-radius: 2px;
 }
 
 .project-card:hover {
@@ -201,12 +204,14 @@ nav {
     text-align: center;
 }
 
+.project-tech-used {
+}
 .project-image {
     margin-top: 15px;
     margin-bottom: 10px;
     max-height: 210px;
     width: 85%;
-    border-radius: 3px;
+    border-radius: 2px;
     border: 2px solid #044646;
 
 }
@@ -252,17 +257,13 @@ nav {
 }
 
 /*-------------------------------------------------------------------------------------Contact*/
+.contact-form {
+    margin-right: 10px;
+}
 .text-area {
     border-color: #065858;
     margin-top: 5px;
     border-radius: 0px;
-}
-
-.textarea:focus {
-    outline: none;
-}
-.input:focus {
-    background-color: red;
 }
 
 .btn-contact-send {
