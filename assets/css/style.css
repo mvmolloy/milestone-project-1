@@ -9,7 +9,7 @@
 }
 
 .bg-color-portfolio-container {
- background-color: #065858;
+ background-color: slategray;
 }
 /*-------------------------------------------------------------------------------General/Padding/Margin---*/
 body {
@@ -224,28 +224,28 @@ nav {
 
 .project-card {
     margin: 10px;
-    background-color: rgba(254, 254, 254, 0.85);
-    padding: 1px;
-    border-radius: 2px;
+    background-color: rgba(220, 235, 235, 0.85);
+    box-shadow: rgba(0, 0, 255, .2);
 }
 
 .project-card:hover {
-   background-color: rgba(254, 254, 254, 0.95);
+    background-color: rgba(220, 235, 235, 0.95);
 }
+
 
 .project-card-content {
     text-align: center;
 }
 
 .project-image {
-    margin-top: 15px;
     margin-bottom: 10px;
-    max-height: 210px;
-    width: 85%;
-    border-radius: 2px;
-    border: 2px solid #044646;
-
+    width: 100%;
+    height: 15em;
 }
+
+
+/*---keep above--*/
+
 .nav-btn-gitproject {
     border-radius: 0px;
     background-color: #065858;
@@ -290,6 +290,10 @@ nav {
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-form {
     margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(6, 88, 88, 0.9);
+    padding: 10px;
 }
 .text-area {
     border-color: #065858;
@@ -304,13 +308,14 @@ nav {
     background-color: #fefefe;
     font-size: 18px;
     letter-spacing: 1px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .btn-contact-send:hover {
     color: #fefefe;
-    background-color: #065858;
+    background-color: transparent;
+    border-color: #fefefe;
     font-weight: 400;
 }
 
