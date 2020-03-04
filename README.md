@@ -42,6 +42,15 @@ Users will be potential clients and employers. For such users, it needs to be ea
 - Add more projects using all the technical skills listed
 - Add real projects for real clients
 
+## Testing
+#### Devices
+**Chrome Developer Tools** used to test responsivity on devices ranging from the Iphone SE to Desktop. Project cast to 4k Monitor to test on larger devices. This showed bootstrap rows/columns/grids to allow site to be fully responsive. Everything is centred to enable responsiveness, and prevent stretching, even on larger screens. 
+**ScrollSpy** works regardless of the order sections are viewed in. Testing showed I had to go back and offset scrolling by the nav height. This is now fixed. 
+**target_blank** successfully opens all external links in a new tab, meaning 
+**download** makes the CV download straight onto users computer into the default folder for downloads
+
+
+
 ## CREDITS 
 
 #### Content
