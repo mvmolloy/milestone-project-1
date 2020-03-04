@@ -31,6 +31,11 @@ nav {
     height: calc(100vh - 50px);
 }
 
+.hero-list {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+}
 /*------------------------------------------------------------------------------------------------Nav----*/
 .navbar {
     background-color: #fefefe;
@@ -125,10 +130,14 @@ nav {
     font-size: 50px;
     color: white;
     text-align: right;
-    background-color: rgba(6, 88, 88, 0.9);
+    background-color: rgba(6, 88, 88, 0.85);
     margin-top: 10px;
     margin-right: 10px;
     }
+
+.hero-text-overlay:hover {
+    background-color: rgba(6, 88, 88, 0.92);
+}
 
 .hero-header {
     margin-right: 10px;
@@ -292,8 +301,12 @@ nav {
     margin: 10px;
     text-align: center;
     color: white;
-    background-color: rgba(6, 88, 88, 0.9);
+    background-color: rgba(6, 88, 88, 0.85);
     padding: 10px;
+}
+
+.contact-form:hover {
+background-color: rgba(6, 88, 88, 0.92);
 }
 .text-area {
     border-color: #065858;
