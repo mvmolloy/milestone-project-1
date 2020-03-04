@@ -1,3 +1,8 @@
+/*-------------------------------------------------------------------------------Colours------------------*/
+.bg-color-contact-container {
+    background-color: lightgray;
+
+}
 /*-------------------------------------------------------------------------------General/Padding/Margin---*/
 body {
     font-family: 'Rubik', sans-serif;
@@ -275,4 +280,22 @@ nav {
     color: #fefefe;
     background-color: #065858;
     font-weight: 400;
+}
+
+
+/*---------------------------------------------------------------------------------------------Footer---*/
+
+
+.footer-social-links {
+    text-align: center;
+    margin: 10px;
+}
+.social-icon {
+ color: #1e6868;
+ font-size: 30px;
+ margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #178e8e;
 }
