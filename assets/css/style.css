@@ -140,9 +140,108 @@ nav {
 }
 
 /*------------------------------------------------------------------------------------------------About--*/
+
+.about-container {
+    background-image: url("../images/aboutbg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: initial;
+    background-repeat: repeat;
+    background-position: left;   
+    position: relative;
+
+}
 .about-text-container {
     background-color:#065858;
     margin: 20px;
     color: #fefefe;
     padding: 10px;
+}
+/*---------------------------------------------------------------------------------------------CV---*/
+.cv-container {
+    height: 400px;
+    background-color:grey;
+}
+/*---------------------------------------------------------------------------------------------Project---*/
+.portfolio-container {
+    background: url("../images/portfoliobg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: initial;
+    background-repeat: repeat;
+    background-position: left;   
+    position: relative;
+}
+
+.portfolio-container-header {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(254, 254, 254, 0.9);
+}
+
+.project-card {
+    margin: 10px;
+    background-color: rgba(254, 254, 254, 0.85);
+    padding: 0px;
+    border-radius: 3px;
+}
+
+.project-card:hover {
+   background-color: rgba(254, 254, 254, 0.95);
+}
+
+.project-card-content {
+    text-align: center;
+}
+
+.project-image {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    max-height: 210px;
+    width: 85%;
+    border-radius: 3px;
+    border: 2px solid #044646;
+
+}
+.nav-btn-gitproject {
+    border-radius: 0px;
+    background-color: #065858;
+    border-color: #065858;
+    color: #fefefe;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.nav-btn-gitproject:hover {
+    background-color: #fefefe;
+    color: #065858;
+    font-weight: 400;
+}
+
+.project-screen-view {
+    font-size: 100px;
+}
+
+.btn-project {
+    display: inline-block;
+}
+
+.portfolio-btn-contact {
+    border-radius: 0px;
+    background-color: #065858;
+    border-color: #065858;
+    color: #fefefe;
+    height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.portfolio-btn-contact:hover {
+    background-color: #fefefe;
+    color: #065858;
 }
