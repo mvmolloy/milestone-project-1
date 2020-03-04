@@ -146,6 +146,9 @@ nav {
     margin: 10px;
 }
 
+.hero-list li {
+    margin: 3px;
+}
 .hero-icon {
     margin-left: 5px;
 }
@@ -158,6 +161,7 @@ nav {
     height: 40px;
     letter-spacing: 1px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .hero-btn-about:hover {
