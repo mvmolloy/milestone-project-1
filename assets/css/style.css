@@ -42,6 +42,11 @@ h2 {
     font-weight: 300;
 }
 
+h3 {
+text-transform: uppercase;
+font-weight: 300; 
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -329,10 +334,16 @@ h2 {
 }
 
 /*-------------------------------------------------------------------------------------Contact*/
-.contact-filler-col { background-color: lightseagreen;}
+.contact-filler-col { background-color: #fefefe;}
 .contact-header {
     color: #fefefe;
 }
+
+.portfolio-container-subhead {
+color: #fefefe;
+text-align: center;
+}
+
 .contact-form {
     margin: 4%;
     text-align: center;
