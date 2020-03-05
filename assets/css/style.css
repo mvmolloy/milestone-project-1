@@ -382,7 +382,23 @@ background-color: rgba(6, 88, 88, 0.92);
     font-weight: 400;
 }
 
+/*-----------------------------------------------------------------------------------------COTNACT MODAL---*/
+.modal-header {
+    display: inline;
+    text-align: center;
+}
+.modal-title {
+    color: #044646;
+}
 
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    display: inline;
+    text-align: center;
+}
 /*---------------------------------------------------------------------------------------------Footer---*/
 
 
