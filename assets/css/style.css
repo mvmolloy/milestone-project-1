@@ -42,7 +42,7 @@ h2 {
     font-weight: 300;
 }
 
-h3 {
+h4 {
 text-transform: uppercase;
 font-weight: 300; 
 }
@@ -334,7 +334,10 @@ font-weight: 300;
 }
 
 /*-------------------------------------------------------------------------------------Contact*/
-.contact-filler-col { background-color: #fefefe;}
+.contact-filler-col {
+background-color: #fefefe;
+}
+
 .contact-header {
     color: #fefefe;
 }
@@ -396,3 +399,6 @@ background-color: rgba(6, 88, 88, 0.92);
 .social-icon:hover {
     color: #178e8e;
 }
+
+/*--------------------------------------TESTING---*/
+
