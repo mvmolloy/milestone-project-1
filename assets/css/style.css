@@ -329,8 +329,12 @@ h2 {
 }
 
 /*-------------------------------------------------------------------------------------Contact*/
+.contact-filler-col { background-color: lightseagreen;}
+.contact-header {
+    color: #fefefe;
+}
 .contact-form {
-    margin: 10px;
+    margin: 4%;
     text-align: center;
     color: white;
     background-color: rgba(6, 88, 88, 0.85);
