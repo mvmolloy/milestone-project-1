@@ -383,21 +383,26 @@ background-color: rgba(6, 88, 88, 0.92);
 }
 
 /*-----------------------------------------------------------------------------------------COTNACT MODAL---*/
+
 .modal-header {
     display: inline;
     text-align: center;
+    background-color: #065858;
+    border-radius: 1px;
 }
 .modal-title {
-    color: #044646;
+    color: #fefefe;
 }
 
 .modal-body {
     text-align: center;
+    background-color: lightgray;
 }
 
 .modal-footer {
     display: inline;
     text-align: center;
+    background-color: lightgray;
 }
 /*---------------------------------------------------------------------------------------------Footer---*/
 
