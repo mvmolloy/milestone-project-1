@@ -11,6 +11,10 @@
 .bg-color-portfolio-container {
  background-color: slategray;
 }
+
+.bg-color-testimonials-container {
+    background-color: darkcyan;
+}
 /*-------------------------------------------------------------------------------General/Padding/Margin---*/
 body {
     font-family: 'Rubik', sans-serif;
@@ -332,7 +336,10 @@ font-weight: 300;
     background-color: #fefefe;
     color: #065858;
 }
-
+/*-------------------------------------------------------------------------------------Testimonials*/
+.testimonials-header {
+    text-align: center;
+}
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-filler-col {
 background-color: #fefefe;
