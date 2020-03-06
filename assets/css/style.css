@@ -404,6 +404,22 @@ background-color: rgba(6, 88, 88, 0.92);
     text-align: center;
     background-color: lightgray;
 }
+
+.modal-btn {
+    border-radius: 0px;
+    background-color: #065858;
+    border-color: #065858;
+    color: #fefefe;
+    height: 40px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.modal-btn:hover {
+    background-color: #fefefe;
+    color: #065858;
+    border-color: #065858;
+}
 /*---------------------------------------------------------------------------------------------Footer---*/
 
 
