@@ -337,8 +337,22 @@ font-weight: 300;
     color: #065858;
 }
 /*-------------------------------------------------------------------------------------Testimonials*/
-.testimonials-header {
+.testimonials-container-header {
     text-align: center;
+    color: #fefefe;
+}
+
+.testimonial-content {
+    color: #fefefe;
+    padding: 10px;
+}
+
+.testimonial-subheader {
+text-align: center;
+}
+
+.testimonial-quote {
+    text-align: justify;
 }
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-filler-col {
