@@ -229,6 +229,13 @@ font-weight: 300;
     color: #fafafa;
     margin-bottom: 20px;
     margin-top: 10px;
+    
+}
+
+.cv-skills-container {
+    color: #fafafa;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .cv-item {
@@ -269,9 +276,14 @@ font-weight: 300;
 
 }
 .cv-history-header { 
-    text-align: left
+    text-align: left;
+    width: 100%;
 }
 
+.cv-skills-header {
+    text-align: right;
+    width: 100%;
+}
 .cv-history-timeline {
     margin-bottom: 30px;
 }
@@ -307,6 +319,12 @@ font-weight: 300;
 }
 .cv-container-print-icon {
     font-size: 30px;
+}
+
+.cv-btn-container p {
+    color: white;
+    margin: 10px;
+    width: 100%;
 }
 /*---------------------------------------------------------------------------------------------Projects---*/
 
