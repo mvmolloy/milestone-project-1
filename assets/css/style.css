@@ -221,14 +221,59 @@ font-weight: 300;
 }
 /*---------------------------------------------------------------------------------------------CV---*/
 .cv-container {
-    height: 400px;
     color: white;
     padding: 10px 25px;
 }
 
 .cv-history-container {
-    text-align: left;
-   
+    color: #fafafa;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.cv-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.cv-item p {
+ color: #fefefe;
+ padding: 0;
+ margin: 0;
+}
+
+.cv-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    display: block;
+    left: 2.5em;
+    top: 3em;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.cv-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 2.4em;
+    left: -6px;
+    border-radius: 50%;
+    content: '';
+    background: #fafafa;
+
+}
+.cv-history-header { 
+    text-align: left
+}
+
+.cv-history-timeline {
+    margin-bottom: 30px;
 }
 .cv-skills-container {
     text-align: right;
@@ -285,7 +330,7 @@ background-color: darkgrey;
     margin: 15px;
     padding: 3px;
     background-color: rgba(255, 255, 255, 0.85);
-    box-shadow: 6px 6px 8px rgba(109, 109, 114, 0.95);
+    box-shadow: 6px 6px 6px rgba(109, 109, 114, 0.95);
 }
 
 .project-card:hover {
