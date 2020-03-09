@@ -60,6 +60,9 @@ font-weight: 300;
     padding: 0;
 }
 
+.nav-link {
+    margin-left: 10px;
+}
 .navbar-brand {
     color: #098888;
     height: 40px;
