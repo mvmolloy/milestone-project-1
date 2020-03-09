@@ -200,7 +200,7 @@ font-weight: 300;
 /*------------------------------------------------------------------------------------------------About--*/
 
 .about-container {
-    background-image: url("../images/aboutbg.jpg");
+    background-image: url("../images/aboutbg.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -282,7 +282,7 @@ background-color: darkgrey;
     margin: 15px;
     padding: 3px;
     background-color: rgba(255, 255, 255, 0.85);
-    box-shadow: 8px 8px 8px rgba(109, 109, 114, 0.95);
+    box-shadow: 6px 6px 8px rgba(109, 109, 114, 0.95);
 }
 
 .project-card:hover {
