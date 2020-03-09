@@ -222,6 +222,7 @@ font-weight: 300;
     color: white;
     padding: 10px 25px;
 }
+
 .cv-history-container {
     text-align: left;
    
@@ -262,6 +263,10 @@ font-weight: 300;
 /*---------------------------------------------------------------------------------------------Projects---*/
 
 .portfolio-container {
+background-color: darkgrey;
+}
+
+.portfolio-container {
     padding: 10px;
 }
 .portfolio-container-header {
@@ -275,12 +280,13 @@ font-weight: 300;
 
 .project-card {
     margin: 15px;
-    background-color: rgba(220, 235, 235, 0.85);
-    box-shadow: rgba(0, 0, 255, .2);
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 8px 8px 8px rgba(109, 109, 114, 0.95);
 }
 
 .project-card:hover {
-    background-color: rgba(220, 235, 235, 0.95);
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 
@@ -356,7 +362,7 @@ text-align: center;
 }
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-filler-col {
-background-color: #fefefe;
+background-color: lightgray;
 }
 
 .contact-header {
