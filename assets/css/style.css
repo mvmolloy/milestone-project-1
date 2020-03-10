@@ -36,9 +36,8 @@ nav {
 }
 
 .hero-container {
-    margin-top: 50px;
+    margin: 50px 10px 10px 10px;
     height: calc(100vh - 50px);
-    margin-right: 0px;
 }
 
 h2 {
@@ -150,6 +149,7 @@ font-weight: 300;
     background-repeat: no-repeat;
     background-position: left;   
     position: relative;
+    
 }
 
 .hero-text-overlay {
@@ -203,26 +203,27 @@ font-weight: 300;
 /*------------------------------------------------------------------------------------------------About--*/
 
 .about-container {
-    background-image: url("../images/aboutbg.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: initial;
-    background-repeat: repeat;
-    background-position: left;   
-    position: relative;
+    background-color: #fefefe;
 
 }
 .about-text-container {
     background-color:#065858;
-    margin: 20px;
+    margin: 10px;
     color: #fefefe;
     padding: 10px;
+    text-align: justify;
 }
 /*---------------------------------------------------------------------------------------------CV---*/
 .cv-container {
     color: white;
-    padding: 10px 25px;
+   
+    background-color: white;
+}
+.cv-block {
+    margin: 10px;
+    background-color: teal;
+    padding: 10px;
+    text-align: center;
 }
 
 .cv-history-container {
@@ -230,6 +231,14 @@ font-weight: 300;
     margin-bottom: 20px;
     margin-top: 10px;
     
+}
+
+.cv-circle-icon {
+    border-radius: 50px;
+    padding: 30px;
+    border: 2px solid white;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .cv-skills-container {
@@ -276,8 +285,8 @@ font-weight: 300;
 
 }
 .cv-history-header { 
-    text-align: left;
-    width: 100%;
+    text-align: center;
+    
 }
 
 .cv-skills-header {
