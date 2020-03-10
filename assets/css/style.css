@@ -281,16 +281,24 @@ font-weight: 300;
 }
 
 .cv-skills-header {
-    text-align: right;
+    text-align: center;
     width: 100%;
 }
 .cv-history-timeline {
     margin-bottom: 30px;
 }
 .cv-skills-container {
-    text-align: right;
+    text-align: center;
 }
 
+.cv-skills-subheader i {
+    border-radius: 50%;
+    padding: 30px;
+    background-color: transparent;
+    font-size: 2.4em;
+    margin-bottom: 0.5em;
+    border: 2px solid white;
+}
 .cv-btn-container {
     text-align: center;
 }
@@ -416,7 +424,7 @@ background-color: darkgrey;
 
 .testimonial-content {
     color: #fefefe;
-    padding: 10px;
+   
 }
 
 .testimonial-subheader {
