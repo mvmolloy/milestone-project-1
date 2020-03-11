@@ -206,7 +206,7 @@ font-weight: 300;
 
 .cv-skills-block {
    margin: 10px;
-    background-color: teal;
+   background: radial-gradient(circle, rgba(9,136,136, 0.88) 0%, rgba(6,88,88,1) 70%);
     padding: 10px;
     text-align: center; 
 }
@@ -232,7 +232,7 @@ font-weight: 300;
     text-align: center;
 }
 
-.cv-skills-banner hr {
+.cv-skills-block hr {
     border-top: 1.5px solid #fafafa;
 }
 .cv-skills-subheader i {
