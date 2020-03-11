@@ -357,7 +357,7 @@ margin: 10px;
 
 .project-card:hover {
     background-color: rgba(248,248,248, 0.95);
-   box-shadow: 7px 7px 8px rgba(109, 109, 114, 1);
+   box-shadow: 7px 7px 6px rgba(109, 109, 114, 1);
 }
 
 .project-card p {
