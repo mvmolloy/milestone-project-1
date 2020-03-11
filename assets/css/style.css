@@ -344,7 +344,8 @@ font-weight: 300;
 /*---------------------------------------------------------------------------------------------Projects---*/
 
 .portfolio-container {
-background-color: darkgrey;
+background-color: rgb(222, 222, 222);
+margin: 10px;
 }
 
 .portfolio-container-header {
@@ -429,6 +430,10 @@ background-color: darkgrey;
     background-color: #fefefe;
     margin: 10px;
 }
+
+.testimonials-md-container {
+    display: flex;
+}
 .testimonials-container-header {
     text-align: center;
     color: #fefefe;
@@ -436,14 +441,14 @@ background-color: darkgrey;
 
 .testimonial-content {
     color: #fefefe;
-   
 }
 
 .testimonial-block {
     margin: 10px;
     padding: 20px;
     background-color: #065858;
-    min-height: 22em;
+    position: relative;
+    height: 95%;
 }
 
 .testimonial-subheader {
@@ -470,6 +475,7 @@ text-align: center;
     text-align: justify;
 }
 /*-------------------------------------------------------------------------------------Contact*/
+
 .contact-filler-col {
 background-color: lightgray;
 }
