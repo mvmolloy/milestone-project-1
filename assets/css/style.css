@@ -295,6 +295,9 @@ font-weight: 300;
     text-align: center;
 }
 
+.cv-skills-banner hr {
+    border-top: 1.5px solid #fafafa;
+}
 .cv-skills-subheader i {
     border-radius: 50%;
     padding: 30px;
@@ -454,11 +457,17 @@ text-align: center;
 /*---------------Testimonial Toggle Box-------*/
     .card-header {
     background-color: teal;
+    border-radius: 0px;
 }
+
 .testimonial-header-btn {
     color: white;
     text-decoration: none;
     background-color: teal;
+}
+
+.card-body {
+    text-align: justify;
 }
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-filler-col {
