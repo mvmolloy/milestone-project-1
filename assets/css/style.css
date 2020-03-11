@@ -35,9 +35,8 @@ nav {
     margin-right: 0px;
 }
 
-.hero-container {
-    margin: 50px 10px 10px 10px;
-    height: calc(100vh - 50px);
+.jumbotron {
+    margin: 50px 10px 10px 10px;;
 }
 
 h2 {
@@ -139,9 +138,34 @@ font-weight: 300;
   }
 
 /*------------------------------------------------------------------------------------------------Hero---*/
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),  url("../images/hero.jpg");
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:;
 
+    text-align: center;
+    color: #f5f5f5;
+}
 
+.jumbotron-btn-contact {
+    border-radius: 0px;
+    background-color: rgba(6,88,88,0.2);
+    border-color: #c0c0c0;
+    color: #fefefe;
+    height: 40px;
+    letter-spacing: 1px;
+    margin-top: 2em;
+}
 
+.jumbotron-btn-contact:hover {
+    background-color: rgba(6,88,88,0.8);
+    color: #c0c0c0;
+    border-color: #c0c0c0;
+}
 
 /*---------------------------------------------------------------------------------------------About/CV---*/
 .about-container {
@@ -422,7 +446,7 @@ margin-bottom: 1em;
 }
 /*---------------Testimonial Toggle Box-------*/
 .card-header {
-    background-color: teal;
+    background-color: #065858;
     border-radius: 0px;
     color: white;
     text-align: center;
@@ -432,7 +456,7 @@ margin-bottom: 1em;
 .testimonial-header-btn {
     color: white;
     text-decoration: none;
-    background-color: teal;
+    background-color:#065858;
 }
 
 .card-body {
