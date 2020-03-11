@@ -214,9 +214,8 @@ font-weight: 300;
     text-align: justify;
 }
 /*---------------------------------------------------------------------------------------------CV---*/
-.cv-container {
+.about-container {
     color: white;
-   
     background-color: white;
 }
 .cv-block {
@@ -375,13 +374,17 @@ background-color: darkgrey;
     padding: 3px;
     background-color: rgba(255, 255, 255, 0.85);
     box-shadow: 6px 6px 6px rgba(109, 109, 114, 0.95);
+    min-height: 30em;
 }
 
 .project-card:hover {
     background-color: rgba(255, 255, 255, 0.95);
 }
 
-
+.project-card p {
+    min-height: 5em;
+    text-align: center;
+}
 .project-card-content {
     text-align: center;
 }
