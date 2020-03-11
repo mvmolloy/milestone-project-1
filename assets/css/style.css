@@ -475,9 +475,10 @@ text-align: center;
     text-align: justify;
 }
 /*-------------------------------------------------------------------------------------Contact*/
-
-.contact-filler-col {
-background-color: lightgray;
+.contact-container {
+    background-image: url("../images/contactbg-tile.png");
+    background-repeat: repeat;
+    margin: 10px;
 }
 
 .contact-header {
@@ -493,8 +494,9 @@ text-align: center;
     margin: 4%;
     text-align: center;
     color: white;
-    background-color: rgba(6, 88, 88, 0.85);
+    background-color: rgba(6, 88, 88, 0.95);
     padding: 10px;
+    border: 2px solid #C0C0C0;
 }
 
 .contact-form:hover {
