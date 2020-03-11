@@ -224,6 +224,7 @@ font-weight: 300;
     background-color: teal;
     padding: 10px;
     text-align: center;
+    min-height: 30em;
 }
 
 .cv-history-container {
@@ -254,6 +255,14 @@ font-weight: 300;
     border-left: 1px solid;
 }
 
+
+
+.cv-skills-block {
+   margin: 10px;
+    background-color: teal;
+    padding: 10px;
+    text-align: center; 
+}
 .cv-item p {
  color: #fefefe;
  padding: 0;
