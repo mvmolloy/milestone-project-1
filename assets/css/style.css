@@ -8,9 +8,6 @@
     background-color: #044646;;
 }
 
-.bg-color-portfolio-container {
- background-color: slategray;
-}
 
 .bg-color-testimonials-container {
     background-color: darkcyan;
@@ -51,6 +48,33 @@ font-weight: 300;
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.filler-text {
+    text-align: center;
+    color: #606060;
+    margin: 1em;
+}
+
+.filler-text h4 {
+    margin: 0px;
+}
+
+.filler-btn {
+    border-radius: 0px;
+    background-color: rgba(6,88,88,0.4);
+    border-color: #606060;
+    color: #606060;
+    height: 3em;
+    letter-spacing: 1px;
+    margin: 1.5em;
+
+}
+
+.filler-btn:hover {
+    background-color: rgba(11,160,160,0.6);
+    color: #f8f8f8;
+    border-color: #c0c0c0;
 }
 /*------------------------------------------------------------------------------------------------Nav----*/
 .navbar {
@@ -174,6 +198,7 @@ font-weight: 300;
 
 .cv-cards-container {
     display: flex;
+    background-color: slategrey;
 }
 
 .cv-block {
@@ -302,7 +327,6 @@ font-weight: 300;
 /*---------------------------------------------------------------------------------------------Projects---*/
 
 .portfolio-container {
-background-color: #C0C0C0;
 margin: 10px;
 }
 
@@ -318,6 +342,7 @@ margin: 10px;
 
 .cards-container {
     display: flex;
+    background-color: #c0c0c0;
 }
 
 .project-card {
