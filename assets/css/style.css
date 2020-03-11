@@ -216,7 +216,13 @@ font-weight: 300;
     margin-top: 10px;
 }
 
+.cv-timeline-text {
+    margin-top: 2em;
+}
 
+.cv-timeline-text p {
+    margin-bottom: 1.5em;
+}
 .cv-image {
     text-align: center;
     margin-bottom: 1em;
