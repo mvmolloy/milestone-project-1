@@ -344,7 +344,7 @@ font-weight: 300;
 /*---------------------------------------------------------------------------------------------Projects---*/
 
 .portfolio-container {
-background-color: rgb(222, 222, 222);
+background-color: #C0C0C0;
 margin: 10px;
 }
 
@@ -376,6 +376,7 @@ margin: 10px;
 .project-card p {
     min-height: 5em;
     text-align: center;
+    padding: 1em;
 }
 .project-card-content {
     text-align: center;
@@ -385,9 +386,6 @@ margin: 10px;
     margin-bottom: 10px;
     width: 100%;
 }
-
-
-/*---keep above--*/
 
 .nav-btn-gitproject {
     border-radius: 0px;
@@ -459,11 +457,24 @@ text-align: center;
     text-align: justify;
 }
 
+.client-image {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.client-image img {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+}
 /*---------------Testimonial Toggle Box-------*/
-    .card-header {
+.card-header {
     background-color: teal;
     border-radius: 0px;
+    color: white;
+    text-align: center;
 }
+
 
 .testimonial-header-btn {
     color: white;
@@ -473,6 +484,7 @@ text-align: center;
 
 .card-body {
     text-align: justify;
+    border: 2px solid #C0C0C0;
 }
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-container {
