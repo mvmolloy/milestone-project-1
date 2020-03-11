@@ -16,8 +16,8 @@
 	<title>Megan Molloy | Full-Stack Web Developer</title>
 </head>
 
-<body>
-	<nav class="navbar navbar-expand-sm fixed-top">
+<body data-spy="scroll" data-target="#navbar" data-offset="40">
+	<nav class="navbar navbar-expand-sm fixed-top" id="navbar">
 		<a class="navbar-brand " href="#">
 			Megan Molloy</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavCollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
 		<div class="collapse navbar-collapse" id="navbarNavCollapse">
 			<ul class="nav navbar-nav mr-auto">
 				<li class="nav-item mr-2">
-					<a class="nav-link" href="#about">About</a>
+					<a class="nav-link active" href="#about">About</a>
 				</li>
 				<li class="nav-item mr-2">
 					<a class="nav-link" href="#cv">CV</a>
@@ -46,7 +46,7 @@
 					<a class="nav-link" href="#portfolio">Portfolio</a>
 				</li>
 				<li class="nav-item mr-2 d-block d-sm-none d-md-block">
-					<a class="nav-link" href="#portfolio">Client Stories</a>
+					<a class="nav-link" href="#client-stories">Client Stories</a>
 				</li>
 				<li class="nav-item mr-2 d-block d-sm-none">
 					<a class="nav-link" href="#contact">Contact</a>
@@ -196,7 +196,7 @@
 						</div>
 					</div>
 				</div>
-            <div class="row no-gutters">
+            <div class="row no-gutters" id="cv">
                 <div class="col-12">
                     <div class="filler-text cv-download">
                         <h4>Want to read more?</h4>
@@ -358,7 +358,7 @@
                 </div>
             </div>
 		</section>
-		<section id="testimonials" class="testimonials-container bg-color-testimonials-container">
+		<section id="client-stories" class="testimonials-container bg-color-testimonials-container">
 			<div class="row no-gutters">
 				<div class="col-12">
 					<div id="accordion" class="d-block d-sm-none">
