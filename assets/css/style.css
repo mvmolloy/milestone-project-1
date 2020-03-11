@@ -200,20 +200,7 @@ font-weight: 300;
     border-color: #fefefe;
 }
 
-/*------------------------------------------------------------------------------------------------About--*/
-
-.about-container {
-    background-color: #fefefe;
-
-}
-.about-text-container {
-    background-color:#065858;
-    margin: 10px;
-    color: #fefefe;
-    padding: 10px;
-    text-align: justify;
-}
-/*---------------------------------------------------------------------------------------------CV---*/
+/*---------------------------------------------------------------------------------------------About/CV---*/
 .about-container {
     color: white;
     background-color: white;
@@ -355,12 +342,8 @@ font-weight: 300;
 
 .portfolio-container {
 background-color: darkgrey;
-margin: 10px;
 }
 
-.portfolio-container {
-    padding: 10px;
-}
 .portfolio-container-header {
     margin: 10px;
     padding: 5px;
@@ -420,10 +403,6 @@ margin: 10px;
     font-weight: 400;
 }
 
-.project-screen-view {
-    font-size: 100px;
-}
-
 .btn-project {
     display: inline-block;
 }
@@ -443,6 +422,10 @@ margin: 10px;
     color: #065858;
 }
 /*-------------------------------------------------------------------------------------Testimonials*/
+.testimonials-container {
+    background-color: #fefefe;
+    margin: 10px;
+}
 .testimonials-container-header {
     text-align: center;
     color: #fefefe;
@@ -453,12 +436,29 @@ margin: 10px;
    
 }
 
+.testimonial-block {
+    margin: 10px;
+    padding: 20px;
+    background-color: #065858;
+    min-height: 22em;
+}
+
 .testimonial-subheader {
 text-align: center;
 }
 
 .testimonial-quote {
     text-align: justify;
+}
+
+/*---------------Testimonial Toggle Box-------*/
+    .card-header {
+    background-color: teal;
+}
+.testimonial-header-btn {
+    color: white;
+    text-decoration: none;
+    background-color: teal;
 }
 /*-------------------------------------------------------------------------------------Contact*/
 .contact-filler-col {
