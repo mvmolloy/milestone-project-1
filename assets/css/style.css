@@ -341,7 +341,6 @@ margin: 10px;
 }
 
 
-
 .cards-container {
     display: flex;
     background-color: #7fb2b2;
@@ -445,7 +444,7 @@ margin: 10px;
 .testimonial-block {
     margin: 10px;
     padding: 20px;
-    background-color: #065858;
+    background-color: #197575;
     position: relative;
     height: 95%;
 }
@@ -526,24 +525,24 @@ text-align: center;
     margin: 4%;
     text-align: center;
     color: white;
-    background-color: rgba(6, 88, 88, 0.95);
+    background-color: rgba(6, 102, 102, 0.95);
     padding: 10px;
     border: 2px solid #C0C0C0;
 }
 
 .contact-form:hover {
-background-color: rgba(6, 88, 88, 0.92);
+background-color: rgba(6, 102, 102, 0.92);
 }
 .text-area {
-    border-color: #065858;
+    border-color: #066666;
     margin-top: 5px;
     border-radius: 0px;
 }
 
 .btn-contact-send {
     border-radius: 0px;
-    color: #065858;
-    border-color: #065858;
+    color: #006666;
+    border-color: #066666;
     background-color: #fefefe;
     font-size: 18px;
     letter-spacing: 1px;
@@ -563,7 +562,7 @@ background-color: rgba(6, 88, 88, 0.92);
 .modal-header {
     display: inline;
     text-align: center;
-    background-color: #065858;
+    background-color: #066666;
     border-radius: 1px;
 }
 .modal-title {
@@ -583,8 +582,8 @@ background-color: rgba(6, 88, 88, 0.92);
 
 .modal-btn {
     border-radius: 0px;
-    background-color: #065858;
-    border-color: #065858;
+    background-color: #066666;
+    border-color: #066666;
     color: #fefefe;
     height: 40px;
     letter-spacing: 1px;
@@ -593,8 +592,8 @@ background-color: rgba(6, 88, 88, 0.92);
 
 .modal-btn:hover {
     background-color: #fefefe;
-    color: #065858;
-    border-color: #065858;
+    color: #066666;
+    border-color: #066666;
 }
 /*---------------------------------------------------------------------------------------------Footer---*/
 
@@ -604,13 +603,13 @@ background-color: rgba(6, 88, 88, 0.92);
     margin: 10px;
 }
 .social-icon {
- color: #1e6868;
+ color: #066666;
  font-size: 30px;
  margin-right: 10px;
 }
 
 .social-icon:hover {
-    color: #178e8e;
+    color: #66a3a3;
 }
 
 /*--------------------------------------TESTING---*/
