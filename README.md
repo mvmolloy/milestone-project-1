@@ -50,7 +50,7 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - Gitpod
     - This project was built using the GitPod IDE to develop the code, which was then pushed to GitHub for Deployment.
- -Google Fonts
+-Google Fonts
     - This project uses Google Fonts to provide the Rubik font style used throughout the website.
 
 
