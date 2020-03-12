@@ -63,9 +63,9 @@ font-weight: 300;
 
 .filler-btn {
     border-radius: 0px;
-    background-color: rgba(6,88,88,0.4);
+    background-color: rgba(11,160,160,0.7);
     border-color: #606060;
-    color: #606060;
+    color: #f8f8f8;
     height: 3em;
     letter-spacing: 1px;
     margin: 1.5em;
@@ -73,9 +73,9 @@ font-weight: 300;
 }
 
 .filler-btn:hover {
-    background-color: rgba(11,160,160,0.6);
+    background-color: rgba(11,160,160,0.97);
+    border-color: #606060;
     color: #f8f8f8;
-    border-color: #c0c0c0;
 }
 /*------------------------------------------------------------------------------------------------Nav----*/
 .navbar {
@@ -138,18 +138,22 @@ font-weight: 300;
 
 .nav-btn-contact {
     border-radius: 0px;
-    background-color: rgba(192,192,192, 0.2);
-    border-color: #065858;
-    color: #065858;
+    background-color: rgba(11,160,160,0.7);
+    border-color: #606060;
+    color: #f8f8f8;
     height: 40px;
     letter-spacing: 1px;
     margin-right: 10px;
+    
+
 }
 
 .nav-btn-contact:hover {
-    background-color: rgba(192,192,192, 0.8);
-    color: #065858;
-    border-color: #065858;
+    background-color: rgba(11,160,160,0.98);
+    border-color: #606060;
+    color: #f8f8f8;
+}
+
 }
 .navbar-toggler {
     max-height: 40px;
