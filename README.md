@@ -54,10 +54,11 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
 
 ## Testing
 **Responsive Bootstrap Grid** tested using Chrome Developer tools, responsive on all devices from the smallest, Iphone SE, to tablets and then on a wide screen device. All elements respond to col-* classes as expected.  
-**ScrollSpy** works regardless of the order sections are viewed in. Testing showed I had to go back and offset scrolling by the nav height. This is now fixed.  
+    - When tested on an Iphone SE, the client-title in the collapsable client-stories expanded wider than the client-header element and caused a marign on the right-hand side of the page. This was fixed by applying the style "width: 100%" to the client-title element. 
+**ScrollSpy** works regardless of the order sections are viewed in. Testing showed I had to go back and offset scrolling by the nav height. This was fixed by adding the Bootstrap class of "offset=50" to the ScrollSpy. 
 **target_blank** successfully opens all links in a new tab and leaves the website open in its existing tab.  
 **Download CV** makes the CV download straight onto users computer into the default folder for downloads.  
-**Contact Form** displays an error message if the input does not match the expected input format. It displays an error message if all forms are not filled in. 
+**Contact Form** validates input the phone and email fields. It displays an error message if all forms are not filled in. 
 
 ## Deployment 
 This site is deployed using GitHub and hosted using GitHub Pages. The only git branch for this site is the master branch. Any new commits made to the branch will update on the deployed website automatically. The intended landing page has been titled index.html to ensure this site deploys correctly with GitHub Pages. 
