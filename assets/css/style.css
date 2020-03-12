@@ -499,6 +499,7 @@ margin-bottom: 1em;
 .client-title {
     color: #C0C0C0;
 }
+
 /*---------------Testimonial Toggle Box-------*/
 .card-header {
     background-color: #065858;
@@ -512,6 +513,7 @@ margin-bottom: 1em;
     color: white;
     text-decoration: none;
     background-color:#065858;
+    max-width: 100%;
 }
 
 .card-body {
