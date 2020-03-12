@@ -1,13 +1,7 @@
 /*-------------------------------------------------------------------------------Colours------------------*/
-.bg-color-contact-container {
-    background-color: lightgray;
-
-}
-
 .bg-color-cv-container {
     background-color: #044646;;
 }
-
 
 .bg-color-testimonials-container {
     background-color: darkcyan;
@@ -358,7 +352,7 @@ margin: 10px;
 
 .cards-container {
     display: flex;
-    background-color: #ececec;
+    background-color: #b2d1d1;
 }
 
 .project-card {
