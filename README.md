@@ -23,19 +23,21 @@ Two wireframes guided the end design of this project, the first is for mobile de
 #### Colour Scheme 
 I chose the two core colours for my website: #c0c0c0 and #065858, which contrast well and look clean. All colours used are based around these, being either tints or shades and provide consistency that ties together all sections of the website. [color-hex](https://www.color-hex.com/) proved a very useful resource in this respect. 
 
-
-#### Client
-My client is myself. I want my website to showcase of my skills and existing projects to potential employers and clients. 
-**This project meets my goals because**...
-
-**This project gives them what they need because**...
-
 #### Mockup 
 
-
 ## FEATURES
+**[Bootstrap ScrollSpy](https://getbootstrap.com/docs/4.0/components/scrollspy/)** to aid navigation throughout the page.  
+**Navbar Collapse & Toggle** for smaller screen sizes.
+**Download CV** downloads my cv to a users default download file. 
+**Section Collapse & Expand** for client stories on mobile devices. 
+**Contact Form** with fields for Name, Phone Number, Email Address and Message. All require an input and phone and email fields require this in the correct format. 
+**Social links** to my Github, LinkedIn, Twitter and Facebook profiles, displayed as icons in the footer and open in a new tab, along with another link to download my CV.
 
-#### Technologies
+#### Future Features 
+[ ] Make the contact form work 
+[ ] Include real projects and real client stories
+
+## Technologies
 - **HTML5** and **CSS3**
 - **[Bootstrap v4.4(https://www.bootstrapcdn.com/)**
     - The project uses **Bootstrap** to structure the website, make it fully responsive for mobile, tablet, laptop, desktop and large screen devices.
@@ -43,21 +45,6 @@ My client is myself. I want my website to showcase of my skills and existing pro
 - **Gitpod** used as the IDE to develop the code. Committed and pushed to **GitHub** for Deployment.
 - **Googlefonts** used to provide all font styles used throughout the project
 
-#### Existing Features 
-- Nav
-  - **[scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/)** aids the navigation through the side
-- Hero
-    - **Bootstrap Jumbotron
-- About
-- CV - My CV split into two "timelines": one is a traditional timeline of my employment and education history since starting university in 2013. The other displaying my front-end and back-end technical skills. Also includes a button to download printable PDF of traditional CV, which opens in a new tab. 
-- Portfolio - showcasing Code Institute projects to date, including Love Running, Whiskey Drop and Rosie Odenkirk's Portfolio. Highlights 4 existing projects and prompts the user to consider if their project might be next. Gives a call-to-action to the contact form. 
-- Contact: Including contact form
-- Footer: Links to social sites, including Twitter, Git, Facebook, Linked in and another link to download my CV as a PDF. 
-
-#### Future Features 
-- [ ] Make the contact form work 
-- [ ] Add more projects using all the technical skills listed
-- [ ] Include real projects and real client stories
 
 ## Testing
 #### Devices
