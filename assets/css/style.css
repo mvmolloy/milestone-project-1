@@ -340,19 +340,11 @@ font-weight: 300;
 margin: 10px;
 }
 
-.portfolio-container-header {
-    margin: 10px;
-    padding: 5px;
-    color: white;
-    border-radius: 2px;
-    text-align: center;
-    font-weight: 300;
-}
 
 
 .cards-container {
     display: flex;
-    background-color: #b2d1d1;
+    background-color: #7fb2b2;
 }
 
 .project-card {
