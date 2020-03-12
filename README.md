@@ -17,7 +17,7 @@ As my prospective clients scrolled through my site, I wanted them to get an over
 #### Wireframes
 Two wireframes guided the end design of this project, the first is for mobile devices, and the second scales up this layout for larger devices. I made both using [MockFlow](https://mockflow.com).
 
-- [Wireframe for mobile devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/mobile-wireframe.png)  
+![Wireframe for mobile devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/mobile-wireframe.png)  
 - [Wireframe for larger devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/desktop-wireframe.png)
 
 #### Colour Scheme 
