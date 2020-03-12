@@ -39,21 +39,25 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
 [ ] Include real projects and real client stories
 
 ## Technologies
-- **HTML5** and **CSS3**
-- **[Bootstrap v4.4(https://www.bootstrapcdn.com/)**
-    - The project uses **Bootstrap** to structure the website, make it fully responsive for mobile, tablet, laptop, desktop and large screen devices.
+- HTML5
+    - This project uses HTML to build the building blocks of the website. 
+- CSS3
+    - This project uses CSS3 to style the website's HTML.
+- [Bootstrap v4.4](https://www.bootstrapcdn.com). 
+    - This project uses Bootstrap to render it fuller responsive across a range of devices. 
+**CSS3**
+
     - The project also uses BootstrapCDN to provide icons from **[FontAwesome](https://www.bootstrapcdn.com/fontawesome/)**
 - **Gitpod** used as the IDE to develop the code. Committed and pushed to **GitHub** for Deployment.
 - **Googlefonts** used to provide all font styles used throughout the project
 
 
 ## Testing
-#### Devices
-- **Chrome Developer Tools** used to test responsivity on devices ranging from the Iphone SE to Desktop. Project cast to 4k Monitor to test on larger devices. This showed bootstrap rows/columns/grids to allow site to be fully responsive. Everything is centred to enable responsiveness, and prevent stretching, even on larger screens. 
-- **ScrollSpy** works regardless of the order sections are viewed in. Testing showed I had to go back and offset scrolling by the nav height. This is now fixed. 
-- **target_blank** successfully opens all external links in a new tab, meaning 
-- **download** makes the CV download straight onto users computer into the default folder for downloads
-
+**Responsive Bootstrap Grid** tested using Chrome Developer tools, responsive on all devices from the smallest, Iphone SE, to tablets and then on a wide screen device. All elements respond to col-* classes as expected.  
+**ScrollSpy** works regardless of the order sections are viewed in. Testing showed I had to go back and offset scrolling by the nav height. This is now fixed.  
+**target_blank** successfully opens all links in a new tab and leaves the website open in its existing tab.  
+**Download CV** makes the CV download straight onto users computer into the default folder for downloads.  
+**Contact Form** displays an error message if the input does not match the expected input format. It displays an error message if all forms are not filled in. 
 
 ## Deployment 
 This site is deployed using GitHub and hosted using GitHub Pages. The only git branch for this site is the master branch. Any new commits made to the branch will update on the deployed website automatically. The intended landing page has been titled index.html to ensure this site deploys correctly with GitHub Pages. 
@@ -67,8 +71,8 @@ All text content was written by myself.
 The downloadable CV is my own CV. 
 
 #### Media
-All backgrounds were made using [BG SiteOrigin](http://bg.siteorigin.com)
-All images other than the Education image came from [Unsplash](https://unsplash.com/). The Education Image is my own image.  
+All backgrounds were made using [BG SiteOrigin](http://bg.siteorigin.com)  
+All images other than the Education image came from [Unsplash](https://unsplash.com/). The Education Image is my own image.    
 The project mockups used in the portfolio section were made using [SmartMockups](https://smartmockups.com). The projects featured in these are either Code Institute projects that I have completed, or projects of my own.
 
 #### HTML & CSS
