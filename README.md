@@ -29,6 +29,7 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
 **Bootstrap ScrollSpy** aids navigation throughout the page by changing the font colour of the active nav link.  
 **Navbar Collapse & Toggle** for smaller screen sizes.  
 **Download CV** downloads my cv to a users default download file.   
+**Call to Action Buttons** located throughout the page, prompting users to contact me and download cv.   
 **Section Collapse & Expand** for client stories on mobile devices.   
 **Contact Form** with fields for Name, Phone Number, Email Address and Message. All require an input and phone and email fields require this in the correct format.   
 **Social links** to my Github, LinkedIn, Twitter and Facebook profiles, displayed as icons in the footer and open in a new tab, along with another link to download my CV.
@@ -53,20 +54,23 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
 - **target_blank** successfully opens all external links in a new tab, meaning 
 - **download** makes the CV download straight onto users computer into the default folder for downloads
 
+
+## Deployment 
+This site is deployed using GitHub and hosted using GitHub Pages. The only git branch for this site is the master branch. Any new commits made to the branch will update on the deployed website automatically. The intended landing page has been titled index.html to ensure this site deploys correctly with GitHub Pages. 
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/mvmolloy/milestone-project-1.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
 ## CREDITS 
 
 #### Content
-- All text content was written by myself. 
+All text content was written by myself.  
+The downloadable CV is my own CV. 
 
 #### Media
-- All backgrounds were made using: http://bg.siteorigin.com
-- All images other than the Education images came from [Unsplash](https://unsplash.com/)
-- The project mockups were made using [SmartMockups](https://smartmockups.com). The projects featured in these are either Code Institute projects that I have completed, or projects of my own.  
-- The hex colours came from here: https://www.color-hex.com/color/065858
+All backgrounds were made using [BG SiteOrigin](http://bg.siteorigin.com)
+All images other than the Education image came from [Unsplash](https://unsplash.com/). The Education Image is my own image.  
+The project mockups used in the portfolio section were made using [SmartMockups](https://smartmockups.com). The projects featured in these are either Code Institute projects that I have completed, or projects of my own.
 
 #### HTML & CSS
-
-### ACKNOWLEDGEMENTS
-
-Thanks to Brian Macharia, whose mentoring sessions kept me on track and helped shape this project! 
+The CSS for the radial background for the skills banner was generated using [CSSGradient](https://cssgradient.io/). 
 
