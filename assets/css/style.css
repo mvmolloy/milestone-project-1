@@ -600,7 +600,7 @@ background-color: rgba(6, 102, 102, 0.92);
 
 .footer-social-links {
     text-align: center;
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
 }
 .social-icon {
  color: #f9f9f9;
