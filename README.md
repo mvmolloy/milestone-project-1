@@ -1,9 +1,10 @@
 ## My Portfolio
-(User-Centric Front-End Development (Code Institute Milestone Project One))
 
 ![my portfolio](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/my-portfolio-mockup.png)
 
 This static wesbite is designed to act as an online portfolio that can be used during and after my time learning and creating with the Code Institute. Right now it's primary purpose is to submit as my User Centric Front-End Development project (Milestone 1) but eventually it will serve as a landing page for potential employers and clients. 
+
+(User-Centric Front-End Development (Code Institute Milestone Project One))
 
 ## UX
 This website was primarily designed with prospective clients in mind. I envisioned my ideal client to be a small business owner looking for a website tailored to their business needs and ethos. 
