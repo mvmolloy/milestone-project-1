@@ -74,7 +74,7 @@ All text content was written by myself.
 The downloadable CV is my own CV. 
 
 #### Media
-All backgrounds were made using [BG SiteOrigin](http://bg.siteorigin.com)  
+All backgrounds were made using [SiteOrigin](http://bg.siteorigin.com).
 All images other than the Education image came from [Unsplash](https://unsplash.com/).  
 The Education image is my own.    
 The project mockups used in the portfolio section were made using [SmartMockups](https://smartmockups.com). The projects featured in these are either Code Institute projects that I have completed, or projects of my own.
