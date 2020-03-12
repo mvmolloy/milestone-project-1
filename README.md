@@ -26,11 +26,11 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
 #### Mockup 
 
 ## FEATURES
-**[Bootstrap ScrollSpy](https://getbootstrap.com/docs/4.0/components/scrollspy/)** to aid navigation throughout the page.  
-**Navbar Collapse & Toggle** for smaller screen sizes.
-**Download CV** downloads my cv to a users default download file. 
-**Section Collapse & Expand** for client stories on mobile devices. 
-**Contact Form** with fields for Name, Phone Number, Email Address and Message. All require an input and phone and email fields require this in the correct format. 
+**Bootstrap ScrollSpy** aids navigation throughout the page by changing the font colour of the active nav link.  
+**Navbar Collapse & Toggle** for smaller screen sizes.  
+**Download CV** downloads my cv to a users default download file.   
+**Section Collapse & Expand** for client stories on mobile devices.   
+**Contact Form** with fields for Name, Phone Number, Email Address and Message. All require an input and phone and email fields require this in the correct format.   
 **Social links** to my Github, LinkedIn, Twitter and Facebook profiles, displayed as icons in the footer and open in a new tab, along with another link to download my CV.
 
 #### Future Features 
