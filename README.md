@@ -1,6 +1,8 @@
 ## My Portfolio
 (User-Centric Front-End Development (Code Institute Milestone Project One))
 
+![my portfolio](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/my-portfolio-mockup.png)
+
 This static wesbite is designed to act as an online portfolio that can be used during and after my time learning and creating with the Code Institute. Right now it's primary purpose is to submit as my User Centric Front-End Development project (Milestone 1) but eventually it will serve as a landing page for potential employers and clients. 
 
 ## UX
@@ -17,8 +19,8 @@ As my prospective clients scrolled through my site, I wanted them to get an over
 #### Wireframes
 Two wireframes guided the end design of this project, the first is for mobile devices, and the second scales up this layout for larger devices. I made both using [MockFlow](https://mockflow.com).
 
-- [Wireframe for mobile devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/mobile-wireframe.png)  
-- [Wireframe for larger devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/desktop-wireframe.png)
+- [Wireframe for mobile devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/mobile-wireframe.png)  
+- [Wireframe for larger devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/desktop-wireframe.png)
 
 #### Colour Scheme 
 I chose the two core colours for my website: #c0c0c0 and #065858, which contrast well and look clean. All colours used are based around these, being either tints or shades and provide consistency that ties together all sections of the website. [color-hex](https://www.color-hex.com/) proved a very useful resource in this respect. 
