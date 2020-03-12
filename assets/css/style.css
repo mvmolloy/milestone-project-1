@@ -566,32 +566,32 @@ background-color: rgba(6, 102, 102, 0.92);
     border-radius: 1px;
 }
 .modal-title {
-    color: #fefefe;
+    color: #f9f9f9;
 }
 
 .modal-body {
     text-align: center;
-    background-color: lightgray;
+    background-color: #f9f9f9;
 }
 
 .modal-footer {
     display: inline;
     text-align: center;
-    background-color: lightgray;
+    background-color: #f9f9f9;
 }
 
 .modal-btn {
     border-radius: 0px;
     background-color: #066666;
     border-color: #066666;
-    color: #fefefe;
+    color: #f9f9f9;
     height: 40px;
     letter-spacing: 1px;
     margin-right: 10px;
 }
 
 .modal-btn:hover {
-    background-color: #fefefe;
+    background-color: #f9f9f9;
     color: #066666;
     border-color: #066666;
 }
@@ -603,14 +603,15 @@ background-color: rgba(6, 102, 102, 0.92);
     margin: 10px;
 }
 .social-icon {
- color: #066666;
- font-size: 30px;
- margin-right: 10px;
+ color: #f9f9f9;
+ font-size: 1.5em;
+ margin-right: 2em;
+ border-radius: 50%;
+ padding: 0.3em;
+ background-color: #066666;
 }
 
 .social-icon:hover {
     color: #66a3a3;
 }
-
-/*--------------------------------------TESTING---*/
 
