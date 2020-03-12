@@ -72,7 +72,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 #### Content
 All text content was written by myself.  
-The downloadable CV is a mock-up version of my own cv using a Word Template. The word paragraph text on the CV has been let unedited. 
+The downloadable CV is a mock-up version of my own cv using a Word Template. The paragraph template text on the CV has been let unedited. 
 
 #### Media
 All backgrounds were made using [SiteOrigin](http://bg.siteorigin.com).
