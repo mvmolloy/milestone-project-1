@@ -17,6 +17,8 @@ Users will be potential clients and employers. For such users, it needs to be ea
 
 #### Wireframes
 
+[Wireframe for mobile devices:](../assets/wireframes/mobile-wireframe.png)
+
 ## FEATURES
 
 #### Technologies
