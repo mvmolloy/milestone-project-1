@@ -17,7 +17,7 @@ Users will be potential clients and employers. For such users, it needs to be ea
 
 #### Wireframes
 
-[Wireframe for mobile devices:](https://raw.github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/mobile-wireframe.png)
+[Wireframe for mobile devices:](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/mobile-wireframe.png)
 
 ## FEATURES
 
