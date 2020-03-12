@@ -35,8 +35,8 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
 **Social links** to my Github, LinkedIn, Twitter and Facebook profiles, displayed as icons in the footer and open in a new tab, along with another link to download my CV.
 
 #### Future Features 
-[ ] Make the contact form work 
-[ ] Include real projects and real client stories
+- [ ] Make the contact form work 
+- [ ] Include real projects and real client stories
 
 ## Technologies
 - HTML5
