@@ -87,9 +87,6 @@ font-weight: 300;
     margin-left: 10px;
 }
 
-.nav-link:active {
-    background-color: red;
-}
 .navbar-brand {
     color: #098888;
     height: 40px;
@@ -138,7 +135,7 @@ font-weight: 300;
 
 .nav-btn-contact {
     border-radius: 0px;
-    background-color: rgba(11,160,160,0.7);
+    background-color: rgba(11,160,160,0.8);
     border-color: #606060;
     color: #f8f8f8;
     height: 40px;
@@ -412,6 +409,7 @@ margin: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
     display: inline-block;
+    max-width: 100%;
 }
 
 .nav-btn-gitproject:hover {
@@ -422,6 +420,7 @@ margin: 10px;
 
 .btn-project {
     display: inline-block;
+    max-width: 100%;
 }
 
 .portfolio-btn-contact {
@@ -432,6 +431,7 @@ margin: 10px;
     height: 40px;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    max-width: 100%;
 }
 
 .portfolio-btn-contact:hover {
