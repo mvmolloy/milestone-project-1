@@ -19,8 +19,8 @@ Users will be potential clients and employers. For such users, it needs to be ea
 
 Two wireframes set out the design for this project. Both were made using [MockFlow](https://mockflow.com)
 
-- [Wireframe for mobile devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/mobile-wireframe.png)
-- [Wireframe for larger devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/desktop-wireframe.png)
+[Wireframe for mobile devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/mobile-wireframe.png)  
+[Wireframe for larger devices](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/wireframes/desktop-wireframe.png)
 
 ## FEATURES
 
