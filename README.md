@@ -8,14 +8,13 @@ This static wesbite is designed as an online portfolio that can be used during a
 
 
 ## UX
-This website was primarily designed with prospective clients in mind. I envisioned my ideal client to be a small business owner looking for a website tailored to their business needs and ethos. 
+This website was primarily designed with prospective clients in mind. I envisioned my ideal client to be a small business owner looking for a website tailored to their business needs and ethos. My users needed to experience a website that had a clean, responsive design and showcased a range of skills, but didn't bombard them with effects. They needed to find navigating the site an easy and intuitive experience, and this needed to be true whether they viewed my website on a mobile device, tablet or computer. 
 
-The design of my site really needed to show them that I can design clean, responsive websites - it needed to showcase a range of skills without bombarding users. I needed it to be easy to navigate, and to speak to any prospective clients, and this needed to be true whether they viewed my website on a mobile device, tablet or computer. 
-
-As my prospective clients scrolled through my site, I wanted them to get an overview of myself, my ethos and my history. I also wanted them to be able to download my CV if they wanted a more formal representation of this. By using project cards, I wanted to show off some of the projects I have done. For potential clients and employers that are more technical, I wanted them to be able to access the GitHub repositories for these projects. By using client stories, I wanted them to get a sense of the impact these projects had on the individuals and businesses they were designed for. Finally, I wanted users to have a way to contact me so we could chat about any potential projects. In the footer I have external links to my GitHub, LinkedIn, Twitter and Facebook page, as well as another link to download my CV. 
+As my prospective clients scrolled through my site, I wanted them to get an overview of myself, my ethos and my employment and education history. I also wanted them to be able to download my CV if they wanted a more formal representation of this. By using project cards, I wanted to show off some of the projects I have done. For potential clients and employers that are more technical, I wanted them to be able to access the GitHub repositories for these projects. By using client stories, I wanted them to get a sense of the impact these projects had on the individuals and businesses they were designed for. Finally, after users have made their journey through the webpage, I needed them to have a way to contact me so we could chat about any potential projects. In the footer I needed icons that would link the user to my external social media sites, including GitHub, LinkedIn and Twitter, while keeping my own webpage visible. I also needed to prompt users with another opportunity to download my CV. 
 
 #### User Stories 
-- As a small business owner in need of a website, I want to view a website where I can really get a sense of the designer, what they have done for other businesses and what they can do for me. I want a sense that a I will be working with a real person who really cares about the website they will build for me and the impact it will have on my business. 
+- As a small business owner in need of a website, I want to view a website where I can really get a sense of the designer, what they have done for other businesses and what they can do for me. I want a sense that a I will be working with a real person who really cares about the website they will build for me and the impact it will have on my business.  
+
 - As a prospective employer, I just want a way to see my potential employee can develop a good website, view a portfolio of their work, and then download and print their CV, so I can assess their skills and experience and decide on whether to contact them for an interview.
 
 #### Wireframes
@@ -31,6 +30,7 @@ I chose the two core colours for my website: #cccccc and #006666, which contrast
 ![websafe-cccccc](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/websafe-cccccc.png)
 
 ## FEATURES
+
 **Bootstrap ScrollSpy** aids navigation throughout the page by changing the font colour of the active nav link.  
 **Navbar Collapse & Toggle** for smaller screen sizes.  
 **Download CV** downloads my cv to a users default download file.   
