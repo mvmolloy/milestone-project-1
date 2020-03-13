@@ -70,9 +70,10 @@ I chose the two core colours for my website: #cccccc and #006666, which contrast
 **Contact Form** validates input the phone and email fields. It displays an error message if all forms are not filled in. 
 
 ## Deployment 
-This site is deployed using GitHub and hosted using GitHub Pages. The only git branch for this site is the master branch. Any new commits made to the branch will update on the deployed website automatically. The intended landing page has been titled index.html to ensure this site deploys correctly with GitHub Pages. 
-
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/mvmolloy/milestone-project-1.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+This project is deployed using GitHub and hosted using GitHub Pages. The only project branch for this repository is the master branch and it is this branch which was used to deploy the project. The intended landing page has been titled index.html to ensure this site deploys correctly with GitHub Pages.  
+For the project submitted to the Code Institute for assessment, the Master Branch and the project deployed to GitHub pages are identital.  
+To run my project locally, select "Clone or Download" at the top of this GitHub repository. Select and copy the HTTPs URL provided. This URL can be used to clone my project by opening your Git Bash Terminal and using the command "git clone" followed by the URL.  
+For any problems or questions relating to creating a local clone of my project, please refer to [GitHub's FAQ](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). 
 
 ## CREDITS 
 
