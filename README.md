@@ -73,7 +73,7 @@ The contact form has input fields for a user's name, email address, phone number
     - This project uses HTML to build the building blocks of the website. 
 - CSS3
     - This project uses CSS3 to style the website's HTML.
-- [Bootstrap v4.4](https://www.bootstrapcdn.com). 
+- [BootstrapCDN v4.4](https://www.bootstrapcdn.com). 
     - This project uses Bootstrap to render it fuller responsive across a range of devices. 
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [Google Fonts](https://fonts.google.com)
