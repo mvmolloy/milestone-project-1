@@ -26,6 +26,9 @@ Two wireframes guided the end design of this project, the first is for mobile de
 #### Colour Scheme 
 I chose the two core colours for my website: #c0c0c0 and #065858, which contrast well and look clean. All colours used are based around these, being either tints or shades and provide consistency that ties together all sections of the website. [color-hex](https://www.color-hex.com/) proved a very useful resource in this respect. 
 
+![websafe-066666](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/websafe-066666.png)
+![websafe-cccccc](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/websafe-cccccc.png)
+
 ## FEATURES
 **Bootstrap ScrollSpy** aids navigation throughout the page by changing the font colour of the active nav link.  
 **Navbar Collapse & Toggle** for smaller screen sizes.  
