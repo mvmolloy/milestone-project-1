@@ -32,14 +32,37 @@ I chose the two core colours for my website: #cccccc and #006666, which contrast
 ![websafe-cccccc](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/websafe-cccccc.png)
 
 ## FEATURES
+The page is headed by a navigation bar which is responsive to screen size. My name in the top left corner acts as a Navbar Brand and returns a user to the top of the page when clicked. The page is footed by a footer which contains social icons to my GitHub, LinkedIn and Twitter pages and a download icon to download my CV. 
 
-**Bootstrap ScrollSpy** aids navigation throughout the page by changing the font colour of the active nav link.  
-**Navbar Collapse & Toggle** for smaller screen sizes.  
-**Download CV** downloads my cv to a users default download file.   
-**Call to Action Buttons** located throughout the page, prompting users to contact me and download cv.   
-**Section Collapse & Expand** for client stories on mobile devices.   
-**Contact Form** with fields for Name, Phone Number, Email Address and Message. All require an input and phone and email fields require this in the correct format.   
-**Social links** to my Github, LinkedIn, Twitter and Facebook profiles, displayed as icons in the footer and open in a new tab, along with another link to download my CV.
+The contact button and navigation bar collapses into a toggle menu on smaller screen sizes. 
+
+Bootstrap ScrollSpy aids navigation throughout the page by changing the font colour of the active nav link. 
+
+A centered hero image at the top of presents an image of a local cafe with a text overlay promoting my focus on designing websites for small businesses. A call to action button provides a directly targets the contact form at the bottom of the page. 
+
+#### About & CV
+Three blocks provide information about myself and my recent employment and education history. Each block contains a photographic image relating to the section. 
+
+A banner separated into three parts with a radial background lists my front-end, back-end and data analysis skills.
+
+Filler text at the bottom of the section prompts the user to read my CV. The user is then presented with a call-to-action button which opens a PDF of my CV in a new tab. When this is opened, my website remains visible in its existing tab. 
+
+The user is then prompted by the filler text to scroll down to view the portfolio section. 
+
+#### Portfolio 
+
+The portfolio section presents users with six project cards. Each project card displays a mockup of my projects on different devices, gives a title for the project and a brief description, as well as an inline list stating the technologies used to create it. 
+
+The final project card presents the user with a mockup prompting them to consider if their project could be next and a call-to-action button takes them to the contact form at the bottom of the page. 
+
+#### Client Stories 
+Four client stories are featured in four separate blocks. These include a photo of the client, the client's name and job title and the client story.
+
+On smaller devices, these stories collapse. The first is expanded by default. Users can then expand and collapse the stories as they scroll through them. 
+
+#### Contact Form 
+The contact form has input fields for a user's name, email address, phone number and message. All fields require a valid input. The form contains a send button, which currently triggers a modal explaining the form does not work yet and providing my email address instead.
+ 
 
 #### Future Features 
 - [ ] Add the jQuery that will make the contact form work 
