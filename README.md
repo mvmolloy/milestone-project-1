@@ -81,18 +81,23 @@ This project is deployed using GitHub and hosted using GitHub Pages. The only pr
 For the project submitted to the Code Institute for assessment, the Master Branch and the project deployed to GitHub pages are identital.  
 
 To run my project locally, select "Clone or Download" at the top of this GitHub repository. Select and copy the HTTPs URL provided. This URL can be used to clone my project by opening your Git Bash Terminal and using the command "git clone" followed by the URL.  
+
 For any problems or questions relating to creating a local clone of my project, please refer to [GitHub's FAQ](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). 
 
 ## CREDITS 
 
 #### Content
 All text content was written by myself.  
+
 The downloadable CV is a mock-up version of my own cv using a Word Template. The paragraph template text on the CV has been let unedited. 
 
 #### Media
-All backgrounds were made using [SiteOrigin](http://bg.siteorigin.com).
+All backgrounds were made using [SiteOrigin](http://bg.siteorigin.com).  
+
 All images other than the Education image came from [Unsplash](https://unsplash.com/).  
-The Education image is my own.    
+
+The Education image is my own.  
+
 The project mockups used in the portfolio section were made using [SmartMockups](https://smartmockups.com). The projects featured in these are either Code Institute projects that I have completed, or projects of my own.
 
 #### HTML & CSS
