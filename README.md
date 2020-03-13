@@ -15,7 +15,7 @@ As my prospective clients scrolled through my site, I wanted them to get an over
 #### User Stories 
 - As a small business owner in need of a website, I want to view a website where I can really get a sense of the designer, what they have done for other businesses and what they can do for me. I want a sense that a I will be working with a real person who really cares about the website they will build for me and the impact it will have on my business.  
 
-- As a prospective employer, I just want a way to see my potential employee can develop a good website, view a portfolio of their work, and then download and print their CV, so I can assess their skills and experience and decide on whether to contact them for an interview.
+- As a prospective employer for a web development company, I just need a way to see that my potential employee can develop a good website, view a portfolio of their work, and then download and print their CV, so I can assess their skills and experience and decide on whether to contact them for an interview.
 
 #### Wireframes
 Two wireframes guided the end design of this project, the first is for mobile devices, and the second scales up this layout for larger devices. I made both using [MockFlow](https://mockflow.com).
