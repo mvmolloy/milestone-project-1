@@ -61,7 +61,9 @@ I chose the two core colours for my website: #cccccc and #006666, which contrast
 
 
 ## Testing
-- The HTML was tested using the [W3C Markup Validation Service](https://validator.w3.org/) which showed an error where the button tags were nested inside anchor tags. This has been fixed by nesting them inside form tags instead. The validation service now shows no errors or warnings. 
+The HTML code was tested using the [W3C Markup Validation Service](https://validator.w3.org/) which showed an error where the button tags were nested inside anchor tags. This has been fixed by nesting them inside form tags instead. The validation service now shows no errors or warnings. 
+
+The CSS was tested using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which showed one parsing error. This has been fixed by removing it. 
   
 **Responsive Bootstrap Grid** tested using Chrome Developer tools, responsive on all devices from the smallest, Iphone SE, to tablets and then on a wide screen device.
 - On an Iphone SE device, the client-title in the collapsable client-stories expanded wider than the client-header element and caused a marign on the right-hand side of the page. This was fixed by applying the style "width: 100%" to the client-title element.
