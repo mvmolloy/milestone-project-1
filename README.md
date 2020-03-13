@@ -1,6 +1,6 @@
 ## My Portfolio  
 
-Welcome to my portfolio website. This website was created for my Code Insitute User-Centric Front-End Development Milestone Project.
+Welcome to my portfolio website. This website was created for my Code Insitute User-Centric Front-End Development Milestone Project. Here's a sneak preview: 
 
 ![my portfolio](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/my-portfolio-mockup.png)
 
