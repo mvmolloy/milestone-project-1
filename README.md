@@ -55,7 +55,7 @@ I chose the two core colours for my website: #c0c0c0 and #065858, which contrast
 
 
 ## Testing
--The HTML was tested using the [W3C Markup Validation Service](https://validator.w3.org/) which showed an error where the button tags were nested inside anchor tags. This has been fixed by nesting them inside form tags instead. 
+-The HTML was tested using the [W3C Markup Validation Service](https://validator.w3.org/) which showed an error where the button tags were nested inside anchor tags. This has been fixed by nesting them inside form tags instead. The validation service now shows no errors or warnings. 
 **Responsive Bootstrap Grid** tested using Chrome Developer tools, responsive on all devices from the smallest, Iphone SE, to tablets and then on a wide screen device. All elements respond to col-* classes as expected.  
     - When tested on an Iphone SE, the client-title in the collapsable client-stories expanded wider than the client-header element and caused a marign on the right-hand side of the page. This was fixed by applying the style "width: 100%" to the client-title element. 
     - I used WhatIsMyScreenResolution's [MultiScreenTest](http://whatismyscreenresolution.net/multi-screen-test) to test my websites responsiveness on screen sizes much larger than my own 14inch laptop screen. This showed me that I needed to fix the position of the skills list and buttons inside the project cards as they were moving outside of them on xl screen sizes. I have done this and they now scale properly.
