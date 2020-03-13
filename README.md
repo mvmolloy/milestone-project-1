@@ -4,7 +4,7 @@ Welcome to my portfolio website. This website was created for my Code Insitute U
 
 ![my portfolio](https://github.com/mvmolloy/milestone-project-1/blob/master/assets/readme-images/my-portfolio-mockup.png)
 
-This static wesbite is designed as an online portfolio that can be used during and after my time learning and creating with the Code Institute. It utilises my HTML, CSS and Bootstrap skills to serve as a landing page for potential clients and employers and to showcase projects I have created for local groups, small businesses and solo entrepreneurs. 
+This static wesbite is designed as an online portfolio that can be used during and after my time learning and creating with the Code Institute. It utilises my HTML, CSS and Bootstrap skills to serve as a landing page for potential clients and employers. It highlights my education and employment history, technical skills, and showcases projects I have created for local groups, small businesses and solo entrepreneurs. Potential clients are able to read client stories of how the projects I create for them have helped their ventures to flourish. After their journey thorugh my page, the end goal is that potential clients are persuaded to get in touch using the contact form so we can explore any potential projects. 
 
 
 ## UX
