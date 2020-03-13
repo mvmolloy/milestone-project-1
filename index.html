@@ -5,10 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!----link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-		type="text/css" />-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
@@ -20,10 +16,10 @@
 	<nav class="navbar navbar-expand-sm fixed-top" id="navbar">
 		<a class="navbar-brand" href="#">
 			Megan Molloy</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavCollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
          </button>
-		<div class="collapse navbar-collapse" id="navbarNavCollapse">
+		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="nav navbar-nav mr-auto">
 				<li class="nav-item">
 					<a class="nav-link active" href="#about">About</a>
@@ -37,6 +33,8 @@
 						aria-expanded="false">Portfolio</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="#project-running">Love Running</a>
+                        <a class="dropdown-item" href="#project-judo">Ajax Judo Club</a>
+                        <a class="dropdown-item" href="#project-jamie">Jamie's Rennovation</a>
 						<a class="dropdown-item" href="#project-whiskey">Whiskey Drop</a>
 						<a class="dropdown-item" href="#project-rosie">Rosie's Portfolio</a>
 						<a class="dropdown-item" href="#project-yours">Your Project Next?</a>
@@ -53,8 +51,8 @@
 				</li>
 			</ul>
 		</div>
-		<div class="ml-auto d-none d-md-block">
-			<a href="#contact"><button class="btn btn-info nav-btn-contact">Contact</button></a>
+        <div class="ml-auto d-none d-md-block">
+        <form action="#contact" ><button class="btn btn-info nav-btn-contact">Contact</button></form>
 		</div>
 	</nav>
     
@@ -73,7 +71,7 @@
 					<div class="cv-about cv-block">
 						<div class="cv-about-header">
 							<div class="cv-image">
-								<img src="../assets/images/about-square.jpg">
+								<img src="../assets/images/about-square.jpg" alt="about me photo">
                             </div>
 								<h2>About Me</h2>
 							</div>
@@ -96,7 +94,7 @@
 						<div class="cv-education cv-block">
 							<div class="cv-history-header">
 								<div class="cv-image">
-								<img src="../assets/images/edu-square.jpg">
+								<img src="../assets/images/edu-square.jpg" alt="graduation photo">
                             </div>
 								<h2>Education</h2>
 							</div>
@@ -122,7 +120,7 @@
 						<div class="cv-employment cv-block">
 							<div class="cv-history-header">
 								<div class="cv-image">
-								<img src="../assets/images/work-square.jpg">
+								<img src="../assets/images/work-square.jpg" alt="photo of being at work">
                             </div>
 								<h2>Employment</h2>
 							</div>
@@ -213,7 +211,7 @@
 						<div class="col-12 col-sm-6 col-md-4" id="project-one">
 							<div class="project-card">
 								<div class="project-card-content">
-									<img class="project-image" src="../assets/images/loverunningmockup.png" alt="love running project">
+									<img class="project-image" src="../assets/images/loverunningmockup.png" alt="mockup of love running website">
 									<h4>Love Running</h4>
 									<p>Dublin's favourite running club collectively run over 1,000 miles a week! Now
 										they have a website that goes the extra mile for
@@ -236,7 +234,7 @@
 						<div class="col-12 col-sm-6 col-md-4" id="project-five">
 							<div class="project-card">
 								<div class="project-card-content">
-									<img class="project-image" src="../assets/images/ajaxjudomockup.png" alt="rosie odenkirk project">
+									<img class="project-image" src="../assets/images/ajaxjudomockup.png" alt="mockup of Ajax Judo Club website">
 									<h4>Ajax Judo Club</h4>
 									<p>Family-run Ajax Judo Club work hard for over 160 judo players (including
 										Olympians!) and now their website
@@ -260,7 +258,7 @@
 						<div class="col-12 col-sm-6 col-md-4" id="project-four">
 							<div class="project-card">
 								<div class="project-card-content">
-									<img class="project-image" src="../assets/images/jamiemockup.png" alt="rosie odenkirk project">
+									<img class="project-image" src="../assets/images/jamiemockup.png" alt="Mockup of Jamies' rennovation website">
 									<h4>Jamie Taylor</h4>
 									<p>Independent tradesman Jamie Taylor now has a sleek website to showcase his
 										stunning home rennovations.</p>
@@ -284,7 +282,7 @@
 							<div class="project-card">
 								<div class="project-card-content">
 									<div>
-										<img class="project-image" src="../assets/images/whiskeydropmockup.png" alt="whiskey drop project">
+										<img class="project-image" src="../assets/images/whiskeydropmockup.png" alt="Mockup of whiskey drop website">
 										<h4>Whiskey Drop</h4>
 										<div>
 											<p>A brand new landing page for an exciting new whiskey subscription
@@ -310,7 +308,7 @@
 						<div class="col-12 col-sm-6 col-md-4" id="project-three">
 							<div class="project-card">
 								<div class="project-card-content">
-									<img class="project-image" src="../assets/images/rosiemockup.png" alt="rosie odenkirk project">
+									<img class="project-image" src="../assets/images/rosiemockup.png" alt="Mockup of Rosie's Portfolio website">
 									<h4>Rosie's Portfolio</h4>
 									<p>Rosie has years of experience in software and design, and her website tells the
 										whole world about it. </p>
@@ -334,7 +332,7 @@
 						<div class="col-12 col-sm-6 col-md-4" id="project-six">
 							<div class="project-card">
 								<div class="project-card-content">
-									<img class="project-image" src="../assets/images/futureclientmockup.png" alt="rosie odenkirk project">
+									<img class="project-image" src="../assets/images/futureclientmockup.png" alt="Mockup of future client's website">
 									<h4>Are you next?</h4>
 									<p>Your business deserves a website that works as hard for it as you do. Together we
 										can make it happen - just get in touch.
@@ -367,7 +365,7 @@
 								<h5 class="mb-0">
 									<button class="btn testimonial-header-btn uppercase" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <div class="client-image-small">
-											<img src="../assets/images/dylan-photo.jpg">
+											<img src="../assets/images/dylan-photo.jpg" alt="photo of client Dylan">
                                         </div>
                                          Dylan Cave | Judo Coach <i class="fas fa-caret-down"></i>
                                     </button>
@@ -391,7 +389,7 @@
 								<h5 class="mb-0">
 									<button class="btn testimonial-header-btn collapsed uppercase" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <div class="client-image-small">
-											<img src="../assets/images/sophie-photo.jpg">
+											<img src="../assets/images/sophie-photo.jpg" alt="photo of client Sophie">
                                         </div>
           <p>Sophie Thompson | Accountant <i class="fas fa-caret-down"></i></p>
         </button>
@@ -416,7 +414,7 @@
 								<h5 class="mb-0">
 									<button class="btn testimonial-header-btn collapsed uppercase" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <div class="client-image-small">
-											<img src="../assets/images/ellie-photo.jpg">
+											<img src="../assets/images/ellie-photo.jpg" alt="photo of client Ellie">
                                         </div>
           Ellie Smith | Cafe Owner <i class="fas fa-caret-down"></i>
         </button>
@@ -445,7 +443,7 @@
 									<h5 class="mb-0">
 										<button class="btn testimonial-header-btn collapsed uppercase" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         <div class="client-image-small">
-											<img src="../assets/images/jamie-photo.jpg">
+											<img src="../assets/images/jamie-photo.jpg" alt="photo of client Jamie"> 
                                         </div>
           <p>Jamie Taylor | Tradesman <i class="fas fa-caret-down"></i></p>
         </button>
@@ -476,7 +474,7 @@
 								<div class="col-6 testimonials-md-container">
 									<div class="testimonial-content testimonial-block">
 										<div class="client-image">
-											<img src="../assets/images/dylan-photo.jpg">
+											<img src="../assets/images/dylan-photo.jpg" alt="photo of client Dylan">
                                         </div>
 											<h4 class="testimonial-subheader">Dylan Cave |
 												<span class="client-title">Judo Coach</span></h4>
@@ -499,7 +497,7 @@
 									<div class="col-6">
 										<div class="testimonial-content testimonial-block">
 											<div class="client-image">
-												<img src="../assets/images/sophie-photo.jpg">
+												<img src="../assets/images/sophie-photo.jpg" alt="photo of client Sophie">
                                         </div>
 												<h4 class="testimonial-subheader">Sophie Thompson |
 													<span class="client-title">Accountant</span></h4>
@@ -520,7 +518,7 @@
 										<div class="col-6">
 											<div class="testimonial-content testimonial-block">
 												<div class="client-image">
-													<img src="../assets/images/jamie-photo.jpg">
+													<img src="../assets/images/jamie-photo.jpg" alt="photo of client Jamie">
                                         </div>
 													<h4 class="testimonial-subheader">Jamie Taylor
 														|<span class="client-title"> Indepdent Tradesman</span></h4>
@@ -545,7 +543,7 @@
 											<div class="col-6">
 												<div class="testimonial-content testimonial-block">
 													<div class="client-image">
-														<img src="../assets/images/ellie-photo.jpg">
+														<img src="../assets/images/ellie-photo.jpg" alt="photo of client Ellie">
                                         </div>
 														<h4 class="testimonial-subheader"> Ellie Smith |
 															<span class="client-title">Cafe Owner</span></h4>
@@ -583,7 +581,7 @@
 						<form>
 							<input type="text" name="name" id="fullname" class="form-control text-area" placeholder="Name" required />
 							<input type="email" name="email" id="emailaddress" class="form-control text-area" placeholder="Email" required />
-							<input type="phone" name="phone" id="phonenumber" class="form-control text-area" placeholder="Phone" required />
+							<input type="tel" name="tel" id="phonenumber" class="form-control text-area" placeholder="Phone" required />
 							<textarea rows="5" name="message" id="message" class="form-control text-area" placeholder="Message"  required></textarea>
 							<button type="submit" class="btn btn-contact-send" data-toggle="modal" data-target="#contactModal">SEND <i class="far fa-paper-plane"></i></button>
 						</form>
